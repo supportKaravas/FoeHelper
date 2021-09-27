@@ -1,0 +1,127 @@
+/*
+  Localizable.strings
+  FoeHelper
+
+  Created by George Karavas on 14/7/21.
+  
+*/
+/* No comment provided by engineer. */
+"0" = "0";
+
+/* No comment provided by engineer. */
+"90.0" = "90.0";
+
+/* Arc return percent */
+"ARC_PRC_RETURN" = "Arc percentage";
+
+/* Percent return for the Arc */
+"ARC_PRC_RETURN_SUBHEADLINE" = "Enter th contribution reward boost given by your Arc";
+
+/* Attack building */
+"ATTACK_BUILDING" = "Building attack";
+
+/* Calculate */
+"CALCULATE" = "Calculate";
+
+/* Clear */
+"CLEAR" = "Clear";
+
+/* Comments */
+"COMMENTS" = "Comments";
+
+/* Communication ways */
+"COMMUNICATION_WAYS" = "Contact information";
+
+/* Contact us */
+"CONTACT_US" = "Contact us";
+
+/* Current position points */
+"CURRENT_POSITION_POINTS" = "Position current points";
+
+/* Total points for this position now */
+"CURRENT_POSITION_POINTS_SUBHEADLINE" = "Enter the points that already put to that position";
+
+/* Current status */
+"CURRENT_STATUS" = "Current status";
+
+/* e-mail */
+"E_MAIL" = "e-mail";
+
+/* Error title */
+"ERROR" = "Error";
+
+/* FOE helper */
+"FOE_HELPER_TITLE" = "FOE Helper";
+
+/* Game settings */
+"GAME_SETTINGS" = "Game settings";
+
+/* Info title */
+"INFO" = "Info";
+
+/* Level points */
+"LEVEL_POINTS" = "Level points";
+
+/* Total building points for this level */
+"LEVEL_POINTS_SUBHEADLINE" = "Total points that needs the current level of the building";
+
+/* Locked */
+"LOCKED_MESSAGE" = "Locked";
+
+/* name */
+"NAME" = "Name";
+
+/* No comment provided by engineer. */
+"OK" = "Ok";
+
+/* Phone number */
+"PHONE_NUMBER_MESSAGE" = "Phone number";
+
+/* Points to win */
+"POINTS_TO_WIN" = "Points to win";
+
+/* Position return points */
+"POSITION_RETURN_POINTS" = "Contribution points";
+
+/* Points that return the position */
+"POSITION_RETURN_POINTS_SUBHEADLINE" = "Enter the contribution points, without the Arc boost";
+
+/* Required points */
+"REQUIRED_POINTS" = "Required points";
+
+/* Requires */
+"REQUIRES" = "Requires";
+
+/* Save */
+"SAVE_MESSAGE" = "Save";
+
+/* Send */
+"SEND_MESSAGE" = "Send message";
+
+/* Settings */
+"SETTINGS" = "Settings";
+
+/* Status */
+"STATUS" = "Status";
+
+/* Total building points */
+"TOTAL_BUILDING_POINTS" = "Total building points";
+
+/* Total building points now */
+"TOTAL_BUILDING_POINTS_SUBHEADLINE" = "Enter the total points that already put to the building";
+
+/* Unlocked */
+"UNLOCKED_MESSAGE" = "Unlocked";
+
+/* Contribution return percent */
+"CONTRIBUTION_RETURN" = "Contribution return percent";
+
+/* Contribute building */
+"CONTRIBUTE_BUILDING" = "Contribute building";
+
+/* Start */
+"START_MESSAGE" = "Start";
+
+/* Thank you for your comments */
+"THANKS_FOR_COMMENTS" = "Thank you for your comments";
+
