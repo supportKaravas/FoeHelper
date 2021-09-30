@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import KaravasSwiftUtilsLibrary
 
 class SharedData: ObservableObject {
     @Published var arcReturn: String = "90.0"
@@ -14,6 +15,10 @@ class SharedData: ObservableObject {
 
 struct ContentView: View {
     @StateObject var sharedData = SharedData()
+
+    @State var showActivity: Bool = false
+    
+    @State var showGameDataView: Bool = false
 
     var body: some View {
         HStack{
@@ -27,43 +32,53 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.green)
         }
-        NavigationView{
-            List{
-                NavigationLink(
-                    destination: AttackBuildingView()
-                        .environmentObject(sharedData)
-                    ,
-                    label: {
-                        Text(NSLocalizedString("ATTACK_BUILDING", comment: "Attack building"))
-                    })
-                NavigationLink(
-                    destination: ContributeBuildingView()
-                        .environmentObject(sharedData)
-                    ,
-                    label: {
-                        Text(NSLocalizedString("CONTRIBUTE_BUILDING", comment: "Contribute building"))
-                    })
-                NavigationLink(
-                    destination: SettingsView()
-                        .environmentObject(sharedData)
-                    ,
-                    label: {
-                        Text(NSLocalizedString("SETTINGS", comment: "Settings"))
-                    })
-                NavigationLink(
-                    destination: ContactUsView()
-                                .environmentObject(sharedData),
-                    label: {
-                        Text(NSLocalizedString("CONTACT_US", comment: "Contact us"))
-                    })
+        ZStack{
+            NavigationView{
+                List{
+                    NavigationLink(
+                        destination: AgesView(showGameDataView: $showGameDataView)
+                            .environmentObject(sharedData)
+                        ,
+                        label: {
+                            Text(NSLocalizedString("ages", comment: ""))
+                        })
+                    NavigationLink(
+                        destination: AttackBuildingView()
+                            .environmentObject(sharedData)
+                        ,
+                        label: {
+                            Text(NSLocalizedString("ATTACK_BUILDING", comment: "Attack building"))
+                        })
+                    NavigationLink(
+                        destination: ContributeBuildingView()
+                            .environmentObject(sharedData)
+                        ,
+                        label: {
+                            Text(NSLocalizedString("CONTRIBUTE_BUILDING", comment: "Contribute building"))
+                        })
+                    NavigationLink(
+                        destination: SettingsView()
+                            .environmentObject(sharedData)
+                        ,
+                        label: {
+                            Text(NSLocalizedString("SETTINGS", comment: "Settings"))
+                        })
+                    NavigationLink(
+                        destination: ContactUsView()
+                                    .environmentObject(sharedData),
+                        label: {
+                            Text(NSLocalizedString("CONTACT_US", comment: "Contact us"))
+                        })
+                }
+                .navigationTitle(NSLocalizedString("START_MESSAGE", comment: "Start"))
+                .onAppear(){
+                    sharedData.arcReturn = UserDefaults.standard.string(forKey: "arcReturn") ?? "90.0"
+                    sharedData.contributionReturnPercent = UserDefaults.standard.string(forKey: "contributionReturnPercent") ?? "90.0"
+                }
             }
-            .navigationTitle(NSLocalizedString("START_MESSAGE", comment: "Start"))
-            .onAppear(){
-                sharedData.arcReturn = UserDefaults.standard.string(forKey: "arcReturn") ?? "90.0"
-                sharedData.contributionReturnPercent = UserDefaults.standard.string(forKey: "contributionReturnPercent") ?? "90.0"
-            }
+            if showActivity { MyActivityIndicatorView() }
         }
-    }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {

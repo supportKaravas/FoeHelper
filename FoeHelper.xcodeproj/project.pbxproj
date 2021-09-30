@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,12 @@
 		B888CB36269EECC300D60AEF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B888CB38269EECC300D60AEF /* Localizable.strings */; };
 		B8C71BF5269F4272007B62FB /* ContributeBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71BF4269F4272007B62FB /* ContributeBuildingView.swift */; };
 		B8C71BF7269F5AAE007B62FB /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71BF6269F5AAE007B62FB /* ActivityView.swift */; };
+		B8DA5D9D2705EF5400C2D387 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5D9C2705EF5400C2D387 /* DataStructures.swift */; };
+		B8DA5DA12705F0B000C2D387 /* AgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5DA02705F0B000C2D387 /* AgesView.swift */; };
+		B8DA5DA42705F1E500C2D387 /* KaravasSwiftUtilsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B8DA5DA32705F1E500C2D387 /* KaravasSwiftUtilsLibrary */; };
+		B8DA5DA6270636DD00C2D387 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5DA5270636DD00C2D387 /* AgeView.swift */; };
+		B8DA5DA827063CD200C2D387 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5DA727063CD200C2D387 /* TestData.swift */; };
+		B8DA5DAA27063DA100C2D387 /* Age.json in Resources */ = {isa = PBXBuildFile; fileRef = B8DA5DA927063DA100C2D387 /* Age.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,11 @@
 		B888CB39269EECC700D60AEF /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B8C71BF4269F4272007B62FB /* ContributeBuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributeBuildingView.swift; sourceTree = "<group>"; };
 		B8C71BF6269F5AAE007B62FB /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B8DA5D9C2705EF5400C2D387 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		B8DA5DA02705F0B000C2D387 /* AgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgesView.swift; sourceTree = "<group>"; };
+		B8DA5DA5270636DD00C2D387 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
+		B8DA5DA727063CD200C2D387 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		B8DA5DA927063DA100C2D387 /* Age.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Age.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DA5DA42705F1E500C2D387 /* KaravasSwiftUtilsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +80,7 @@
 		B848C10F269C4ED30038C5C0 /* FoeHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B8DA5D9C2705EF5400C2D387 /* DataStructures.swift */,
 				B848C110269C4ED30038C5C0 /* FoeHelperApp.swift */,
 				B848C112269C4ED30038C5C0 /* ContentView.swift */,
 				B848C114269C4ED40038C5C0 /* Assets.xcassets */,
@@ -79,6 +92,8 @@
 				B85619BF269E0EDF0091F05D /* RestClient.swift */,
 				B8C71BF4269F4272007B62FB /* ContributeBuildingView.swift */,
 				B8C71BF6269F5AAE007B62FB /* ActivityView.swift */,
+				B8DA5DA02705F0B000C2D387 /* AgesView.swift */,
+				B8DA5DA5270636DD00C2D387 /* AgeView.swift */,
 			);
 			path = FoeHelper;
 			sourceTree = "<group>";
@@ -87,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				B848C117269C4ED40038C5C0 /* Preview Assets.xcassets */,
+				B8DA5DA727063CD200C2D387 /* TestData.swift */,
+				B8DA5DA927063DA100C2D387 /* Age.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -107,6 +124,9 @@
 			dependencies = (
 			);
 			name = FoeHelper;
+			packageProductDependencies = (
+				B8DA5DA32705F1E500C2D387 /* KaravasSwiftUtilsLibrary */,
+			);
 			productName = FoeHelper;
 			productReference = B848C10D269C4ED30038C5C0 /* FoeHelper.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +155,9 @@
 				el,
 			);
 			mainGroup = B848C104269C4ED30038C5C0;
+			packageReferences = (
+				B8DA5DA22705F1E500C2D387 /* XCRemoteSwiftPackageReference "KaravasSwiftUtilsLibrary" */,
+			);
 			productRefGroup = B848C10E269C4ED30038C5C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B848C118269C4ED40038C5C0 /* Preview Assets.xcassets in Resources */,
+				B8DA5DAA27063DA100C2D387 /* Age.json in Resources */,
 				B888CB36269EECC300D60AEF /* Localizable.strings in Resources */,
 				B848C115269C4ED40038C5C0 /* Assets.xcassets in Resources */,
 			);
@@ -163,12 +187,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B848C120269C50C40038C5C0 /* AttackBuildingView.swift in Sources */,
+				B8DA5D9D2705EF5400C2D387 /* DataStructures.swift in Sources */,
 				B848C124269C6D830038C5C0 /* ContactUsView.swift in Sources */,
+				B8DA5DA827063CD200C2D387 /* TestData.swift in Sources */,
 				B848C122269C5F370038C5C0 /* SettingsView.swift in Sources */,
 				B848C113269C4ED30038C5C0 /* ContentView.swift in Sources */,
 				B85619C0269E0EDF0091F05D /* RestClient.swift in Sources */,
 				B8C71BF7269F5AAE007B62FB /* ActivityView.swift in Sources */,
+				B8DA5DA12705F0B000C2D387 /* AgesView.swift in Sources */,
 				B8C71BF5269F4272007B62FB /* ContributeBuildingView.swift in Sources */,
+				B8DA5DA6270636DD00C2D387 /* AgeView.swift in Sources */,
 				B848C111269C4ED30038C5C0 /* FoeHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +404,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8DA5DA22705F1E500C2D387 /* XCRemoteSwiftPackageReference "KaravasSwiftUtilsLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supportKaravas/KaravasSwiftUtilsLibrary";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8DA5DA32705F1E500C2D387 /* KaravasSwiftUtilsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8DA5DA22705F1E500C2D387 /* XCRemoteSwiftPackageReference "KaravasSwiftUtilsLibrary" */;
+			productName = KaravasSwiftUtilsLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B848C105269C4ED30038C5C0 /* Project object */;
 }

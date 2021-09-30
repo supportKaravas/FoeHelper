@@ -1,0 +1,10 @@
+{
+    "code": "BronzeAge",
+    "id": 1,
+    "previous": "StoneAge",
+    "next": "IronAge",
+    "goods": [
+        {"code": "1111", "id": 1},
+        {"code": "2222", "id": 2}
+    ]
+}
