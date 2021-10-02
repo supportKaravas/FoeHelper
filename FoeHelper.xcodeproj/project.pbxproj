@@ -24,6 +24,8 @@
 		B8DA5DA6270636DD00C2D387 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5DA5270636DD00C2D387 /* AgeView.swift */; };
 		B8DA5DA827063CD200C2D387 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5DA727063CD200C2D387 /* TestData.swift */; };
 		B8DA5DAA27063DA100C2D387 /* Age.json in Resources */ = {isa = PBXBuildFile; fileRef = B8DA5DA927063DA100C2D387 /* Age.json */; };
+		B8DA5DAC270700DF00C2D387 /* GoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5DAB270700DF00C2D387 /* GoodView.swift */; };
+		B8DA5DAE27070E3700C2D387 /* Good.json in Resources */ = {isa = PBXBuildFile; fileRef = B8DA5DAD27070E3700C2D387 /* Good.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		B8DA5DA5270636DD00C2D387 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
 		B8DA5DA727063CD200C2D387 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		B8DA5DA927063DA100C2D387 /* Age.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Age.json; sourceTree = "<group>"; };
+		B8DA5DAB270700DF00C2D387 /* GoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodView.swift; sourceTree = "<group>"; };
+		B8DA5DAD27070E3700C2D387 /* Good.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Good.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		B848C10F269C4ED30038C5C0 /* FoeHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B8DA5DA727063CD200C2D387 /* TestData.swift */,
 				B8DA5D9C2705EF5400C2D387 /* DataStructures.swift */,
 				B848C110269C4ED30038C5C0 /* FoeHelperApp.swift */,
 				B848C112269C4ED30038C5C0 /* ContentView.swift */,
@@ -94,6 +99,7 @@
 				B8C71BF6269F5AAE007B62FB /* ActivityView.swift */,
 				B8DA5DA02705F0B000C2D387 /* AgesView.swift */,
 				B8DA5DA5270636DD00C2D387 /* AgeView.swift */,
+				B8DA5DAB270700DF00C2D387 /* GoodView.swift */,
 			);
 			path = FoeHelper;
 			sourceTree = "<group>";
@@ -102,8 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				B848C117269C4ED40038C5C0 /* Preview Assets.xcassets */,
-				B8DA5DA727063CD200C2D387 /* TestData.swift */,
 				B8DA5DA927063DA100C2D387 /* Age.json */,
+				B8DA5DAD27070E3700C2D387 /* Good.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DA5DAE27070E3700C2D387 /* Good.json in Resources */,
 				B848C118269C4ED40038C5C0 /* Preview Assets.xcassets in Resources */,
 				B8DA5DAA27063DA100C2D387 /* Age.json in Resources */,
 				B888CB36269EECC300D60AEF /* Localizable.strings in Resources */,
@@ -189,6 +196,7 @@
 				B848C120269C50C40038C5C0 /* AttackBuildingView.swift in Sources */,
 				B8DA5D9D2705EF5400C2D387 /* DataStructures.swift in Sources */,
 				B848C124269C6D830038C5C0 /* ContactUsView.swift in Sources */,
+				B8DA5DAC270700DF00C2D387 /* GoodView.swift in Sources */,
 				B8DA5DA827063CD200C2D387 /* TestData.swift in Sources */,
 				B848C122269C5F370038C5C0 /* SettingsView.swift in Sources */,
 				B848C113269C4ED30038C5C0 /* ContentView.swift in Sources */,

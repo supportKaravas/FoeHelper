@@ -1,67 +1,56 @@
 //
-//  AgeView.swift
+//  GoodView.swift
 //  FoeHelper
 //
-//  Created by George Karavas on 30/9/21.
+//  Created by George Karavas on 1/10/21.
 //
 
 import SwiftUI
 import KaravasSwiftUtilsLibrary
 
-struct AgeView: View {
-    @StateObject var sharedData = SharedData()
-
-    @State var age: Age
+struct GoodView: View {
+//    @Binding var showGoodView: Bool
+    @State var good: Good
     @State var showActivityView = false
 
     @State var showAlert = false
     @State var alertMessage: String?
 
-    @State var showGoodView: Bool = false
-    @State var good: Good = TestData.good
-
 
     var body: some View {
         ZStack{
             Form{
-                Section(header: Text("ages")){
-                    HStack{
-                        Text("previousAge")
-                        Spacer()
-                        Text(NSLocalizedString(age.previous ?? "", comment: ""))
-                    }
-                    HStack{
-                        Text("nextAge")
-                        Spacer()
-                        Text(NSLocalizedString(age.next ?? "", comment: ""))
+                HStack{
+                    Text("age")
+                    Spacer()
+                    Text(NSLocalizedString(good.age ?? "", comment: ""))
+                }
+                Section(header: Text("technologiesThatOweGood")){
+                    List(good.technologies ?? []){ technology in
+                        HStack{
+                            Text(NSLocalizedString(technology.code, comment: ""))
+                            Spacer()
+                            Text("\(technology.amount)")
+                        }
                     }
                 }
-                Section(header: Text("goods")){
-                    List(age.goods ?? []){ good in
-                        NavigationLink(
-                            destination: GoodView(good: good)
-                                .environmentObject(sharedData)
-                            ,
-                            label: {
-                                Text(NSLocalizedString(good.code, comment: ""))
-                            })
-                    }
+                HStack{
+                    Text("total")
+                    Spacer()
+                    Text("\(good.totalTechAmount ?? 0)")
                 }
+                if showActivityView { MyActivityIndicatorView() }
             }
-            if showActivityView { MyActivityIndicatorView() }
+            .navigationTitle(Text(NSLocalizedString(good.code, comment: "")))
+            .onAppear(perform: {
+                loadGoodData()
+            })
         }
-        .onAppear(perform: {
-            loadAgeData()
-        })
-        .navigationTitle(Text(NSLocalizedString(age.code, comment: "")))
-        .fullScreenCover(isPresented: $showGoodView, content: {
-            GoodView( good: good  )
-        })
     }
-    
-    func loadAgeData(){
+
+    func loadGoodData(){
         var postData = Post()
-        postData.code = age.code
+        postData.code = good.code
         guard let encoded = try? JSONEncoder().encode(postData) else {
             debugPrint("Error while trying to encode!")
             return
@@ -71,7 +60,7 @@ struct AgeView: View {
         meta.version = 1
         var post = SimpleServletPostData()
         post.metadata = meta
-        post.messageType = "LoadAge"
+        post.messageType = "LoadGood"
         post.parametersJsonString = String(data: encoded, encoding: .ascii)
         
         RestApiService()
@@ -86,7 +75,7 @@ struct AgeView: View {
                         if let dataJsonString = reply.dataJsonString {
                             let decoder = JSONDecoder()
                             if let serviceReply = try? decoder.decode(ReturnData.self, from: dataJsonString.data(using: .utf8)!) {
-                                age = serviceReply.age ?? TestData.age
+                                good = serviceReply.good ?? TestData.good
                             }else{
                                 print("error!!!!!!!!!")
                             }
@@ -102,11 +91,13 @@ struct AgeView: View {
                      }
             )
     }
-    
+
+
+
 }
 
-struct AgeView_Previews: PreviewProvider {
+struct GoodView_Previews: PreviewProvider {
     static var previews: some View {
-        AgeView(age: TestData.age)
+        GoodView(good: TestData.good)
     }
 }

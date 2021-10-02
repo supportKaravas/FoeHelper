@@ -15,4 +15,13 @@ struct TestData{
         var value: Age = try! decoder.decode(Age.self, from: data)
         return value
     }()
+
+    static var good: Good = {
+        let url = Bundle.main.url(forResource: "Good", withExtension: "json")!
+        let data = try! Data(contentsOf: url)
+        let decoder = JSONDecoder()
+        var value: Good = try! decoder.decode(Good.self, from: data)
+        return value
+    }()
+
 }

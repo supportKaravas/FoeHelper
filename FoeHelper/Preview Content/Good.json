@@ -1,0 +1,12 @@
+{
+    "code": "marble",
+    "id": 1,
+    "age": "BronzeAge",
+    "technologies": [
+        {"code":"Craftwork", "id": 1, "amount": 2},
+        {"code":"Archery", "id": 2, "amount": 16},
+        {"code":"Thermae", "id": 3, "amount": 21},
+        {"code":"MountedArchers", "id": 4, "amount": 22}
+    ],
+    "totalTechAmount": 61
+}

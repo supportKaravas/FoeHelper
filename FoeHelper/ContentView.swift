@@ -19,7 +19,7 @@ struct ContentView: View {
     @State var showActivity: Bool = false
     
     @State var showGameDataView: Bool = false
-
+    
     var body: some View {
         HStack{
             Image(uiImage: UIImage(named: "FoeHelperImage") ?? UIImage())
@@ -70,13 +70,16 @@ struct ContentView: View {
                             Text(NSLocalizedString("CONTACT_US", comment: "Contact us"))
                         })
                 }
+                
                 .navigationTitle(NSLocalizedString("START_MESSAGE", comment: "Start"))
                 .onAppear(){
                     sharedData.arcReturn = UserDefaults.standard.string(forKey: "arcReturn") ?? "90.0"
                     sharedData.contributionReturnPercent = UserDefaults.standard.string(forKey: "contributionReturnPercent") ?? "90.0"
                 }
+
             }
             if showActivity { MyActivityIndicatorView() }
+
         }
 }
 }

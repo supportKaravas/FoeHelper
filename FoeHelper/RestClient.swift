@@ -37,7 +37,7 @@ class ServiceReply: Codable{
 class RestClient {
 //    let url = URL(string: "http://127.0.0.1:8080/gkaravas/api/action")!
 //    let url = URL(string: "http://192.168.1.22:8080/gkaravas/api/action")!
-    let url = URL(string: "https://www.gkaravas.com/api/action")!
+    let urlGKaravas = URL(string: "https://www.gkaravas.com/api/action")!
     
     public func callApi(post: PostData, sharedData: SharedData, completionHandler: @escaping ( ServiceReply?, ErrorStruct? ) -> Void) -> Void{
         post.version = "0.0.1"
@@ -48,7 +48,7 @@ class RestClient {
         }
         debugPrint("Sending "+(String(data: encoded, encoding: .ascii) ?? "nil"))
         
-        var request = URLRequest(url: url)
+        var request = URLRequest(url: urlGKaravas)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
         request.httpBody = encoded
