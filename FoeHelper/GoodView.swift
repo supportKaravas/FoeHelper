@@ -6,11 +6,10 @@
 //
 
 import SwiftUI
-import KaravasSwiftUtilsLibrary
 
 struct GoodView: View {
 //    @Binding var showGoodView: Bool
-    @State var good: Good
+    @State var good: Good?
     @State var showActivityView = false
 
     @State var showAlert = false
@@ -23,10 +22,10 @@ struct GoodView: View {
                 HStack{
                     Text("age")
                     Spacer()
-                    Text(NSLocalizedString(good.age ?? "", comment: ""))
+                    Text(NSLocalizedString(good!.age ?? "", comment: ""))
                 }
                 Section(header: Text("technologiesThatOweGood")){
-                    List(good.technologies ?? []){ technology in
+                    List(good!.technologies ?? []){ technology in
                         HStack{
                             Text(NSLocalizedString(technology.code, comment: ""))
                             Spacer()
@@ -37,11 +36,11 @@ struct GoodView: View {
                 HStack{
                     Text("total")
                     Spacer()
-                    Text("\(good.totalTechAmount ?? 0)")
+                    Text("\(good!.totalTechAmount ?? 0)")
                 }
                 if showActivityView { MyActivityIndicatorView() }
             }
-            .navigationTitle(Text(NSLocalizedString(good.code, comment: "")))
+            .navigationTitle(Text(NSLocalizedString(good!.code, comment: "")))
             .onAppear(perform: {
                 loadGoodData()
             })
@@ -50,7 +49,7 @@ struct GoodView: View {
 
     func loadGoodData(){
         var postData = Post()
-        postData.code = good.code
+        postData.code = good!.code
         guard let encoded = try? JSONEncoder().encode(postData) else {
             debugPrint("Error while trying to encode!")
             return
@@ -75,7 +74,7 @@ struct GoodView: View {
                         if let dataJsonString = reply.dataJsonString {
                             let decoder = JSONDecoder()
                             if let serviceReply = try? decoder.decode(ReturnData.self, from: dataJsonString.data(using: .utf8)!) {
-                                good = serviceReply.good ?? TestData.good
+                                good = serviceReply.good!
                             }else{
                                 print("error!!!!!!!!!")
                             }
@@ -98,6 +97,6 @@ struct GoodView: View {
 
 struct GoodView_Previews: PreviewProvider {
     static var previews: some View {
-        GoodView(good: TestData.good)
+        GoodView()
     }
 }

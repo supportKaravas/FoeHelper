@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class Comment: Codable {
+class GKaravasComment: Codable {
     public var application: String?
     public var name: String?
     public var mail: String?
@@ -16,21 +16,21 @@ class Comment: Codable {
     public var textMessage: String?
 }
 
-class PostData: Codable{
+class GKaravasPostData: Codable{
     public var application: String?
     public var messageType: String?
     public var version: String?
-    public var communication: Comment?
+    public var communication: GKaravasComment?
 }
 
-class ErrorStruct: Codable{
+class GKaravasErrorStruct: Codable{
     public var code: Int?
     public var localizedMessage: String?
 }
 
-class ServiceReply: Codable{
+class GKaravasServiceReply: Codable{
     public var localizedMessage: String?
-    public var error: ErrorStruct?
+    public var error: GKaravasErrorStruct?
 //    public var responseTime: Date?
 }
 
@@ -39,7 +39,7 @@ class RestClient {
 //    let url = URL(string: "http://192.168.1.22:8080/gkaravas/api/action")!
     let urlGKaravas = URL(string: "https://www.gkaravas.com/api/action")!
     
-    public func callApi(post: PostData, sharedData: SharedData, completionHandler: @escaping ( ServiceReply?, ErrorStruct? ) -> Void) -> Void{
+    public func callApi(post: GKaravasPostData, sharedData: SharedData, completionHandler: @escaping ( GKaravasServiceReply?, GKaravasErrorStruct? ) -> Void) -> Void{
         post.version = "0.0.1"
         post.application = "FoeHelper"
         guard let encoded = try? JSONEncoder().encode(post) else {
@@ -59,7 +59,7 @@ class RestClient {
                 debugPrint("No data in response: \(error?.localizedDescription ?? "Unknown error").")
 
                 DispatchQueue.main.async {
-                    let errorStruct = ErrorStruct()
+                    let errorStruct = GKaravasErrorStruct()
                     errorStruct.localizedMessage = error?.localizedDescription
                     completionHandler( nil, errorStruct )
                 }
@@ -76,7 +76,7 @@ class RestClient {
 //            decoder.dateDecodingStrategy = .iso8601
             debugPrint("Returned: "+(String(data: data, encoding: .ascii) ?? "nil"))
 
-            if let serviceReply = try? decoder.decode(ServiceReply.self, from: data) {
+            if let serviceReply = try? decoder.decode(GKaravasServiceReply.self, from: data) {
 
                 if error == nil{
                     DispatchQueue.main.async {
@@ -93,8 +93,8 @@ class RestClient {
         }.resume()
     }
 
-    public func contactUs( comment: Comment, sharedData: SharedData, completionHandler: @escaping ( ServiceReply?, ErrorStruct? ) -> Void) -> Void{
-        let post = PostData()
+    public func contactUs( comment: GKaravasComment, sharedData: SharedData, completionHandler: @escaping ( GKaravasServiceReply?, GKaravasErrorStruct? ) -> Void) -> Void{
+        let post = GKaravasPostData()
         post.messageType = "ContactUs"
         post.communication = comment
 

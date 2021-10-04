@@ -75,7 +75,7 @@ struct ContactUsView: View {
     }
     
     private func doSendComments() {
-        let comment = Comment()
+        let comment = GKaravasComment()
         comment.application = "FoeHelper"
         comment.mail = eMailAddress
         comment.name = name

@@ -6,19 +6,18 @@
 //
 
 import SwiftUI
-import KaravasSwiftUtilsLibrary
 
 struct AgeView: View {
     @StateObject var sharedData = SharedData()
 
-    @State var age: Age
+    @State var age: Age?
     @State var showActivityView = false
 
     @State var showAlert = false
     @State var alertMessage: String?
 
     @State var showGoodView: Bool = false
-    @State var good: Good = TestData.good
+    @State var good: Good?
 
 
     var body: some View {
@@ -28,16 +27,16 @@ struct AgeView: View {
                     HStack{
                         Text("previousAge")
                         Spacer()
-                        Text(NSLocalizedString(age.previous ?? "", comment: ""))
+                        Text(NSLocalizedString(age!.previous ?? "", comment: ""))
                     }
                     HStack{
                         Text("nextAge")
                         Spacer()
-                        Text(NSLocalizedString(age.next ?? "", comment: ""))
+                        Text(NSLocalizedString(age!.next ?? "", comment: ""))
                     }
                 }
                 Section(header: Text("goods")){
-                    List(age.goods ?? []){ good in
+                    List(age!.goods ?? []){ good in
                         NavigationLink(
                             destination: GoodView(good: good)
                                 .environmentObject(sharedData)
@@ -53,15 +52,15 @@ struct AgeView: View {
         .onAppear(perform: {
             loadAgeData()
         })
-        .navigationTitle(Text(NSLocalizedString(age.code, comment: "")))
+        .navigationTitle(Text(NSLocalizedString(age!.code, comment: "")))
         .fullScreenCover(isPresented: $showGoodView, content: {
-            GoodView( good: good  )
+            GoodView( good: good!  )
         })
     }
     
     func loadAgeData(){
         var postData = Post()
-        postData.code = age.code
+        postData.code = age!.code
         guard let encoded = try? JSONEncoder().encode(postData) else {
             debugPrint("Error while trying to encode!")
             return
@@ -86,7 +85,7 @@ struct AgeView: View {
                         if let dataJsonString = reply.dataJsonString {
                             let decoder = JSONDecoder()
                             if let serviceReply = try? decoder.decode(ReturnData.self, from: dataJsonString.data(using: .utf8)!) {
-                                age = serviceReply.age ?? TestData.age
+                                age = serviceReply.age!
                             }else{
                                 print("error!!!!!!!!!")
                             }
@@ -107,6 +106,6 @@ struct AgeView: View {
 
 struct AgeView_Previews: PreviewProvider {
     static var previews: some View {
-        AgeView(age: TestData.age)
+        AgeView()
     }
 }

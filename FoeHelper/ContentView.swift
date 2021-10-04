@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import KaravasSwiftUtilsLibrary
 
 class SharedData: ObservableObject {
     @Published var arcReturn: String = "90.0"
