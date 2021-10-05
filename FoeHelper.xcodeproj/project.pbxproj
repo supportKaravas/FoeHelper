@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B82FA0DC270B0A6A00822014 /* MyActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FA0DB270B0A6A00822014 /* MyActivityIndicatorView.swift */; };
-		B82FA0E0270B0A9F00822014 /* KaravasSwiftUtilsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FA0DF270B0A9F00822014 /* KaravasSwiftUtilsLibrary.swift */; };
-		B82FA0E2270B0AED00822014 /* RestApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FA0E1270B0AED00822014 /* RestApiService.swift */; };
+		B83B089F270C5B7F00F8ABC4 /* KaravasSwiftUtilsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B83B089E270C5B7F00F8ABC4 /* KaravasSwiftUtilsLibrary */; };
 		B848C111269C4ED30038C5C0 /* FoeHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848C110269C4ED30038C5C0 /* FoeHelperApp.swift */; };
 		B848C113269C4ED30038C5C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848C112269C4ED30038C5C0 /* ContentView.swift */; };
 		B848C115269C4ED40038C5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848C114269C4ED40038C5C0 /* Assets.xcassets */; };
@@ -31,9 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B82FA0DB270B0A6A00822014 /* MyActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityIndicatorView.swift; sourceTree = "<group>"; };
-		B82FA0DF270B0A9F00822014 /* KaravasSwiftUtilsLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaravasSwiftUtilsLibrary.swift; sourceTree = "<group>"; };
-		B82FA0E1270B0AED00822014 /* RestApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiService.swift; sourceTree = "<group>"; };
 		B848C10D269C4ED30038C5C0 /* FoeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B848C110269C4ED30038C5C0 /* FoeHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoeHelperApp.swift; sourceTree = "<group>"; };
 		B848C112269C4ED30038C5C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83B089F270C5B7F00F8ABC4 /* KaravasSwiftUtilsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +99,6 @@
 				B8DA5DA02705F0B000C2D387 /* AgesView.swift */,
 				B8DA5DA5270636DD00C2D387 /* AgeView.swift */,
 				B8DA5DAB270700DF00C2D387 /* GoodView.swift */,
-				B82FA0DB270B0A6A00822014 /* MyActivityIndicatorView.swift */,
-				B82FA0DF270B0A9F00822014 /* KaravasSwiftUtilsLibrary.swift */,
-				B82FA0E1270B0AED00822014 /* RestApiService.swift */,
 			);
 			path = FoeHelper;
 			sourceTree = "<group>";
@@ -138,6 +131,7 @@
 			);
 			name = FoeHelper;
 			packageProductDependencies = (
+				B83B089E270C5B7F00F8ABC4 /* KaravasSwiftUtilsLibrary */,
 			);
 			productName = FoeHelper;
 			productReference = B848C10D269C4ED30038C5C0 /* FoeHelper.app */;
@@ -168,6 +162,7 @@
 			);
 			mainGroup = B848C104269C4ED30038C5C0;
 			packageReferences = (
+				B83B089D270C5B7F00F8ABC4 /* XCRemoteSwiftPackageReference "KaravasSwiftUtilsLibrary" */,
 			);
 			productRefGroup = B848C10E269C4ED30038C5C0 /* Products */;
 			projectDirPath = "";
@@ -201,17 +196,14 @@
 				B848C120269C50C40038C5C0 /* AttackBuildingView.swift in Sources */,
 				B8DA5D9D2705EF5400C2D387 /* DataStructures.swift in Sources */,
 				B848C124269C6D830038C5C0 /* ContactUsView.swift in Sources */,
-				B82FA0E0270B0A9F00822014 /* KaravasSwiftUtilsLibrary.swift in Sources */,
 				B8DA5DAC270700DF00C2D387 /* GoodView.swift in Sources */,
 				B8DA5DA827063CD200C2D387 /* TestData.swift in Sources */,
 				B848C122269C5F370038C5C0 /* SettingsView.swift in Sources */,
 				B848C113269C4ED30038C5C0 /* ContentView.swift in Sources */,
-				B82FA0E2270B0AED00822014 /* RestApiService.swift in Sources */,
 				B85619C0269E0EDF0091F05D /* RestClient.swift in Sources */,
 				B8C71BF7269F5AAE007B62FB /* ActivityView.swift in Sources */,
 				B8DA5DA12705F0B000C2D387 /* AgesView.swift in Sources */,
 				B8C71BF5269F4272007B62FB /* ContributeBuildingView.swift in Sources */,
-				B82FA0DC270B0A6A00822014 /* MyActivityIndicatorView.swift in Sources */,
 				B8DA5DA6270636DD00C2D387 /* AgeView.swift in Sources */,
 				B848C111269C4ED30038C5C0 /* FoeHelperApp.swift in Sources */,
 			);
@@ -420,6 +412,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B83B089D270C5B7F00F8ABC4 /* XCRemoteSwiftPackageReference "KaravasSwiftUtilsLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supportKaravas/KaravasSwiftUtilsLibrary";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B83B089E270C5B7F00F8ABC4 /* KaravasSwiftUtilsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B83B089D270C5B7F00F8ABC4 /* XCRemoteSwiftPackageReference "KaravasSwiftUtilsLibrary" */;
+			productName = KaravasSwiftUtilsLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B848C105269C4ED30038C5C0 /* Project object */;
 }
