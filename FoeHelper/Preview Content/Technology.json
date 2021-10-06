@@ -1,0 +1,9 @@
+{
+    "code": "FrameHouses",
+    "id": 326,
+    "points": 12,
+    "goods": [
+        { "code": "coins", "id": 1, "ammount": 3000},
+        { "supplies": "coins", "id": 2, "ammount": 1500}
+    ]
+}

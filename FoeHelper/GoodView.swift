@@ -30,7 +30,7 @@ struct GoodView: View {
                         HStack{
                             Text(NSLocalizedString(technology.code, comment: ""))
                             Spacer()
-                            Text("\(technology.amount)")
+                            Text("\(technology.amount!)")
                         }
                     }
                 }

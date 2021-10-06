@@ -24,4 +24,12 @@ struct TestData{
         return value
     }()
 
+    static var technology: Technology = {
+        let url = Bundle.main.url(forResource: "Technology", withExtension: "json")!
+        let data = try! Data(contentsOf: url)
+        let decoder = JSONDecoder()
+        var value: Technology = try! decoder.decode(Technology.self, from: data)
+        return value
+    }()
+
 }

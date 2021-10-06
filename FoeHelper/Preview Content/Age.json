@@ -6,5 +6,13 @@
     "goods": [
         {"code": "1111", "id": 1},
         {"code": "2222", "id": 2}
+    ],
+    "technologies": [
+        {"code": "StiltHouses", "id": 1},
+        {"code": "Spears", "id": 2},
+        {"code": "Pottery", "id": 3},
+        {"code": "TheWheel", "id": 4},
+        {"code": "Construction", "id": 5},
+        {"code": "Slingshots", "id": 6}
     ]
 }

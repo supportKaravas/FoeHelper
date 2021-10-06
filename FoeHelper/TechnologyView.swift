@@ -1,78 +1,71 @@
 //
-//  AgeView.swift
+//  TechnologyView.swift
 //  FoeHelper
 //
-//  Created by George Karavas on 30/9/21.
+//  Created by George Karavas on 6/10/21.
 //
 
 import SwiftUI
 import KaravasSwiftUtilsLibrary
 
-struct AgeView: View {
+struct TechnologyView: View {
     @StateObject var sharedData = SharedData()
-
-    @State var age: Age?
+    
+    @State var technology: Technology?
     @State var showActivityView = false
 
     @State var showAlert = false
     @State var alertMessage: String?
 
-    @State var showGoodView: Bool = false
-    @State var good: Good?
-
-
     var body: some View {
         ZStack{
             Form{
-                Section(header: Text("ages")){
+                Section(header: Text("points")){
                     HStack{
-                        Text("previousAge")
+                        Text("REQUIRED_POINTS")
                         Spacer()
-                        Text(NSLocalizedString(age!.previous ?? "", comment: ""))
-                    }
-                    HStack{
-                        Text("nextAge")
-                        Spacer()
-                        Text(NSLocalizedString(age!.next ?? "", comment: ""))
+                        Text(NSLocalizedString(String(technology!.points ?? 0) , comment: ""))
                     }
                 }
-                Section(header: Text("goods")){
-                    List(age!.goods ?? []){ good in
-                        NavigationLink(
-                            destination: GoodView(good: good)
-                                .environmentObject(sharedData)
-                            ,
-                            label: {
-                                Text(NSLocalizedString(good.code, comment: ""))
-                            })
+                Section(header: Text("REQUIRES")){
+                    List(technology!.goods ?? []){ good in
+                    HStack{
+                        Text(NSLocalizedString(good.code , comment: ""))
+                        Spacer()
+                        Text(NSLocalizedString(String(good.amount ?? 0) , comment: ""))
                     }
-                }
-                Section(header: Text("technologies")){
-                    List(age!.technologies ?? []){ technology in
-                        NavigationLink(
-                            destination: TechnologyView(technology: technology)
-                                .environmentObject(sharedData)
-                            ,
-                            label: {
-                                Text(NSLocalizedString(technology.code, comment: ""))
-                            })
                     }
                 }
             }
             if showActivityView { MyActivityIndicatorView() }
         }
+        .alert(isPresented: $showAlert, content: {
+            Alert(
+                title: Text( "alert" ),
+                message: Text(NSLocalizedString(alertMessage!, comment: "")),
+                dismissButton: .default(
+                                Text("ok"),
+                                action: {
+                                    showAlert = false
+//                                    if(registeredOk){
+//                                        showRegisterView = false
+//                                        presentationMode.wrappedValue.dismiss()
+//                                    }
+                                }
+                            )
+                
+            )
+        })
         .onAppear(perform: {
-            loadAgeData()
+            loadTechnology()
         })
-        .navigationTitle(Text(NSLocalizedString(age!.code, comment: "")))
-        .fullScreenCover(isPresented: $showGoodView, content: {
-            GoodView( good: good!  )
-        })
+        .navigationTitle(NSLocalizedString(technology!.code,comment: ""))
     }
-    
-    func loadAgeData(){
+
+
+    func loadTechnology(){
         var postData = Post()
-        postData.code = age!.code
+        postData.code = technology!.code
         guard let encoded = try? JSONEncoder().encode(postData) else {
             debugPrint("Error while trying to encode!")
             return
@@ -82,7 +75,7 @@ struct AgeView: View {
         meta.version = 1
         var post = SimpleServletPostData()
         post.metadata = meta
-        post.messageType = "LoadAge"
+        post.messageType = "LoadTechnology"
         post.parametersJsonString = String(data: encoded, encoding: .ascii)
         
         RestApiService()
@@ -97,7 +90,7 @@ struct AgeView: View {
                         if let dataJsonString = reply.dataJsonString {
                             let decoder = JSONDecoder()
                             if let serviceReply = try? decoder.decode(ReturnData.self, from: dataJsonString.data(using: .utf8)!) {
-                                age = serviceReply.age!
+                                technology = serviceReply.technology!
                             }else{
                                 print("error!!!!!!!!!")
                             }
@@ -113,11 +106,14 @@ struct AgeView: View {
                      }
             )
     }
-    
+
+
+
 }
 
-struct AgeView_Previews: PreviewProvider {
+struct TechnologyView_Previews: PreviewProvider {
     static var previews: some View {
-        AgeView(age: TestData.age)
+        TechnologyView( technology: TestData.technology)
     }
 }
+

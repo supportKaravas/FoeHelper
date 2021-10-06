@@ -2,7 +2,7 @@
   Localizable.strings
   GShopIOS
 
-    Created by George Karavas on 2021-09-30.
+    Created by George Karavas on 2021-10-06.
   
 */
 /* A.I. Data */
@@ -15,24 +15,52 @@
 "ATTACK_BUILDING" = "Building attack";
 /* Accommodation */
 "Accommodation" = "Accommodation";
+/* Additive Manufacturing */
+"AdditiveManufacturing" = "Additive Manufacturing";
+/* Advertisement */
+"Advertisement" = "Advertisement";
+/* Aerial Fire Support */
+"AerialFireSupport" = "Aerial Fire Support";
 /* Agriculture */
 "Agriculture" = "Agriculture";
 /* Alabaster */
 "Alabaster" = "Alabaster";
 /* Alcatraz */
 "Alcatraz" = "Alcatraz";
+/* Alchemy */
+"Alchemy" = "Alchemy";
 /* Algae */
 "Algae" = "Algae";
+/* Annexes */
+"Annexes" = "Annexes";
+/* Anti-Gravitation */
+"AntiGravitation" = "Anti-Gravitation";
+/* Anti-Tank Warfare */
+"AntiTankWarfare" = "Anti-Tank Warfare";
+/* Antibiotics */
+"Antibiotics" = "Antibiotics";
+/* Apartment Houses */
+"ApartmentHouses" = "Apartment Houses";
 /* Apiary */
 "Apiary" = "Apiary";
+/* Arcade Houses */
+"ArcadeHouses" = "Arcade Houses";
 /* Archery */
 "Archery" = "Archery";
 /* Architecture */
 "Architecture" = "Architecture";
+/* Arcologies */
+"Arcologies" = "Arcologies";
 /* Arctic Future */
 "ArcticFuture" = "Arctic Future";
 /* Arctic Orangery */
 "ArcticOrangery" = "Arctic Orangery";
+/* Aristocracy */
+"Aristocracy" = "Aristocracy";
+/* Armor-Piercing Shells */
+"ArmorPiercingShells" = "Armor-Piercing Shells";
+/* Armor Plating */
+"ArmorPlating" = "Armor Plating";
 /* Armored Infantry */
 "ArmoredInfantry" = "Armored Infantry";
 /* Artificial Scales */
@@ -47,24 +75,46 @@
 "AtlantisMuseum" = "Atlantis Museum";
 /* Atomium */
 "Atomium" = "Atomium";
+/* Autobahns */
+"Autobahns" = "Autobahns";
+/* Automation */
+"Automation" = "Automation";
+/* Automobiles */
+"Automobiles" = "Automobiles";
+/* Baby Boom */
+"BabyBoom" = "Baby Boom";
+/* Ballistics */
+"Ballistics" = "Ballistics";
 /* Basalt */
 "Basalt" = "Basalt";
 /* Basalt Rock */
 "BasaltRock" = "Basalt Rock";
 /* BioTech Crops */
 "BioTechCrops" = "BioTech Crops";
+/* Biochemistry */
+"Biochemistry" = "Biochemistry";
 /* Biogeogenical Data */
 "BiogeogenicalData" = "Biogeogenical Data";
 /* Biolight */
 "Biolight" = "Biolight";
+/* Biology */
+"Biology" = "Biology";
+/* Bionics */
+"Bionics" = "Bionics";
 /* Bionics Data */
 "BionicsData" = "Bionics Data";
 /* Bioplastics */
 "Bioplastics" = "Bioplastics";
+/* Boarding Houses */
+"BoardingHouses" = "Boarding Houses";
 /* Brass */
 "Brass" = "Brass";
+/* Breech Loading */
+"BreechLoading" = "Breech Loading";
 /* Brewing */
 "Brewing" = "Brewing";
+/* Brewing Kettles */
+"BrewingKettles" = "Brewing Kettles";
 /* Brick */
 "Brick" = "Brick";
 /* Bridges */
@@ -75,6 +125,10 @@
 "BromineOccurence" = "Bromine Occurence";
 /* Bronze Age */
 "BronzeAge" = "Bronze Age";
+/* Brownstone Houses */
+"BrownstoneHouses" = "Brownstone Houses";
+/* Bungalows */
+"Bungalows" = "Bungalows";
 /* Butchery */
 "Butchery" = "Butchery";
 /* Calculate */
@@ -101,22 +155,42 @@
 "CapeCanaveral" = "Cape Canaveral";
 /* Capitol */
 "Capitol" = "Capitol";
+/* Capsule Hotels */
+"CapsuleHotels" = "Capsule Hotels";
+/* Cartography */
+"Cartography" = "Cartography";
 /* Castel del Monte */
 "CasteldelMonte" = "Castel del Monte";
 /* Casting */
 "Casting" = "Casting";
 /* Cathedral of Aachen */
 "CathedralofAachen" = "Cathedral of Aachen";
+/* Cavalry Tactics */
+"CavalryTactics" = "Cavalry Tactics";
 /* Chain of Command */
 "ChainOfCommand" = "Chain of Command";
 /* Chalets */
 "Chalets" = "Chalets";
+/* Chemistry */
+"Chemistry" = "Chemistry";
+/* Children's Rights */
+"ChildrensRights" = "Children's Rights";
+/* Chivalry */
+"Chivalry" = "Chivalry";
 /* Château Frontenac */
 "ChâteauFrontenac" = "Château Frontenac";
 /* Clapboard Houses */
 "ClapboardHouses" = "Clapboard Houses";
 /* Clay */
 "Clay" = "Clay";
+/* Clean Energy */
+"CleanEnergy" = "Clean Energy";
+/* Clearing */
+"Clearing" = "Clearing";
+/* Climate Control */
+"ClimateControl" = "Climate Control";
+/* Clockmaking */
+"Clockmaking" = "Clockmaking";
 /* Cloth */
 "Cloth" = "Cloth";
 /* Coal */
@@ -133,14 +207,30 @@
 "Coke" = "Coke";
 /* Colonial Age */
 "ColonialAge" = "Colonial Age";
+/* Colonies */
+"Colonies" = "Colonies";
 /* Colosseum */
 "Colosseum" = "Colosseum";
+/* Combat Drones */
+"CombatDrones" = "Combat Drones";
+/* Commercial Aviation */
+"CommercialAviation" = "Commercial Aviation";
+/* Composite Armor */
+"CompositeArmor" = "Composite Armor";
 /* Compound Fluid */
 "CompoundFluid" = "Compound Fluid";
 /* Compression Method */
 "CompressionMethod" = "Compression Method";
+/* Condominiums */
+"Condominiums" = "Condominiums";
+/* Conservation */
+"Conservation" = "Conservation";
 /* Construction */
 "Construction" = "Construction";
+/* Consumer Goods */
+"ConsumerGoods" = "Consumer Goods";
+/* Consumerism */
+"Consumerism" = "Consumerism";
 /* Contemporary Era */
 "ContemporaryEra" = "Contemporary Era";
 /* Convenience Food */
@@ -155,10 +245,20 @@
 "Cottage" = "Cottage";
 /* Cotton */
 "Cotton" = "Cotton";
+/* Council Houses */
+"CouncilHouses" = "Council Houses";
+/* Counterstrategy */
+"Counterstrategy" = "Counterstrategy";
+/* Country Houses */
+"CountryHouses" = "Country Houses";
 /* Craftwork */
 "Craftwork" = "Craftwork";
+/* Crane */
+"Crane" = "Crane";
 /* Crop Rotations */
 "CropRotations" = "Crop Rotations";
+/* Crossbows */
+"Crossbows" = "Crossbows";
 /* Crude Oil */
 "CrudeOil" = "Crude Oil";
 /* Crypto Cash */
@@ -175,6 +275,10 @@
 "Diatomite" = "Diatomite";
 /* Dried Herbs */
 "DriedHerbs" = "Dried Herbs";
+/* Drones */
+"Drones" = "Drones";
+/* Duplex Houses */
+"DuplexHouses" = "Duplex Houses";
 /* Dye */
 "Dye" = "Dye";
 /* Error */
@@ -183,28 +287,54 @@
 "E_MAIL" = "e-mail";
 /* Early Middle Ages */
 "EarlyMiddleAges" = "Early Middle Ages";
+/* Earth Science */
+"EarthScience" = "Earth Science";
 /* Ebony */
 "Ebony" = "Ebony";
 /* Ebony Tree */
 "EbonyTree" = "Ebony Tree";
 /* Economics */
 "Economics" = "Economics";
+/* Electricity */
+"Electricity" = "Electricity";
 /* Electromagnets */
 "Electromagnets" = "Electromagnets";
+/* Elite Forces */
+"EliteForces" = "Elite Forces";
 /* Enhanced Formula */
 "EnhancedFormula" = "Enhanced Formula";
+/* Environmental Standards */
+"EnvironmentalStandards" = "Environmental Standards";
+/* Equality */
+"Equality" = "Equality";
+/* Estate Houses */
+"EstateHouses" = "Estate Houses";
 /* Executions */
 "Executions" = "Executions";
+/* Exploration */
+"Exploration" = "Exploration";
 /* Explosives */
 "Explosives" = "Explosives";
+/* Extended Gaussian Distribution */
+"ExtendedGaussianDistribution" = "Extended Gaussian Distribution";
+/* Extraction */
+"Extraction" = "Extraction";
 /* FOE Helper */
 "FOE_HELPER_TITLE" = "FOE Helper";
+/* Fashion */
+"Fashion" = "Fashion";
 /* Feroconcrete */
 "Feroconcrete" = "Feroconcrete";
 /* Fertilization */
 "Fertilization" = "Fertilization";
 /* Fertillizer */
 "Fertillizer" = "Fertillizer";
+/* Field Artillery */
+"FieldArtillery" = "Field Artillery";
+/* Financial Services */
+"FinancialServices" = "Financial Services";
+/* Flanking Tactics */
+"FlankingTactics" = "Flanking Tactics";
 /* Flavorands */
 "Flavorands" = "Flavorands";
 /* Flower */
@@ -213,6 +343,10 @@
 "FluorescentParticles" = "Fluorescent Particles";
 /* Flying Island */
 "FlyingIsland" = "Flying Island";
+/* Food Engineering */
+"FoodEngineering" = "Food Engineering";
+/* Food Processing */
+"FoodProcessing" = "Food Processing";
 /* Fortification */
 "Fortification" = "Fortification";
 /* Fosil Site */
@@ -221,6 +355,8 @@
 "FrameHouses" = "Frame Houses";
 /* Frauenkirche of Dresden */
 "FrauenkircheofDresden" = "Frauenkirche of Dresden";
+/* Fusion Power */
+"FusionPower" = "Fusion Power";
 /* Fusion Refactors */
 "FusionRefactors" = "Fusion Refactors";
 /* Future Era */
@@ -231,16 +367,22 @@
 "GaeaStatue" = "Gaea Statue";
 /* Galata Tower */
 "GalataTower" = "Galata Tower";
+/* Gambrel Roof Houses */
+"GambrelRoofHouses" = "Gambrel Roof Houses";
 /* Gas */
 "Gas" = "Gas";
 /* Gasoline */
 "Gasoline" = "Gasoline";
 /* Gemstone */
 "Gemstone" = "Gemstone";
+/* Genetics Research */
+"GeneticsResearch" = "Genetics Research";
 /* Genome Data */
 "GenomeData" = "Genome Data";
 /* Glass */
 "Glass" = "Glass";
+/* Globalization */
+"Globalization" = "Globalization";
 /* Glowing Seaweed */
 "GlowingSeaweed" = "Glowing Seaweed";
 /* Gold */
@@ -249,24 +391,38 @@
 "GoldNugget" = "Gold Nugget";
 /* Golden Rice */
 "GoldenRice" = "Golden Rice";
+/* Granary */
+"Granary" = "Granary";
 /* Granite */
 "Granite" = "Granite";
 /* GraniteRock */
 "GraniteRock" = "GraniteRock";
 /* Grapes */
 "Grapes" = "Grapes";
+/* Gravity Fields */
+"GravityFields" = "Gravity Fields";
+/* Great Swords */
+"GreatSwords" = "Great Swords";
 /* Growing */
 "Growing" = "Growing";
 /* Guano */
 "Guano" = "Guano";
+/* Guilds */
+"Guilds" = "Guilds";
+/* Gunpowder */
+"Gunpowder" = "Gunpowder";
 /* Gunpowder */
 "Gunpowder" = "Gunpowder";
 /* Hagia Sophia */
 "HagiaSophia" = "Hagia Sophia";
 /* Handicraft */
 "Handicraft" = "Handicraft";
+/* Heavy Armor  */
+"HeavyArmor" = "Heavy Armor ";
 /* Heavy Cavalry */
 "HeavyCavalry" = "Heavy Cavalry";
+/* Heavy Siege Engines  */
+"HeavySiegeEngines" = "Heavy Siege Engines ";
 /* Hemp */
 "Hemp" = "Hemp";
 /* Herbal Snack */
@@ -275,24 +431,58 @@
 "Herbs" = "Herbs";
 /* High Middle Ages */
 "HighMiddleAges" = "High Middle Ages";
+/* High-Rises  */
+"HighRises" = "High-Rises ";
+/* High Society */
+"HighSociety" = "High Society";
+/* High-Tech Materials */
+"HighTechMaterials" = "High-Tech Materials";
+/* Higher Education */
+"HigherEducation" = "Higher Education";
 /* Himeji Castle */
 "HimejiCastle" = "Himeji Castle";
+/* Hollywood */
+"Hollywood" = "Hollywood";
 /* Honey */
 "Honey" = "Honey";
 /* Honeycomb */
 "Honeycomb" = "Honeycomb";
 /* Horseback Riding */
 "HorsebackRiding" = "Horseback Riding";
+/* Hospitals */
+"Hospitals" = "Hospitals";
+/* Human-Machine Interface */
+"HumanMachineInterface" = "Human-Machine Interface";
 /* Hydrothermal Deposit */
 "HydrothermalDeposit" = "Hydrothermal Deposit";
+/* Hygiene */
+"Hygiene" = "Hygiene";
 /* Info */
 "INFO" = "Info";
+/* Imperialism */
+"Imperialism" = "Imperialism";
 /* Industrial Age */
 "IndustrialAge" = "Industrial Age";
+/* Industrial Design */
+"IndustrialDesign" = "Industrial Design";
+/* Industrial Filters */
+"IndustrialFilters" = "Industrial Filters";
+/* Industrial Goods */
+"IndustrialGoods" = "Industrial Goods";
+/* Industrial Steel */
+"IndustrialSteel" = "Industrial Steel";
+/* Industrialization */
+"Industrialization" = "Industrialization";
+/* Infantry Support */
+"InfantrySupport" = "Infantry Support";
+/* Infrastructure */
+"Infrastructure" = "Infrastructure";
 /* Innovation Tower */
 "InnovationTower" = "Innovation Tower";
-/* Intustrial Filters */
-"IntustrialFilters" = "Intustrial Filters";
+/* Intelligence */
+"Intelligence" = "Intelligence";
+/* Internet */
+"Internet" = "Internet";
 /* Iron */
 "Iron" = "Iron";
 /* Iron Age */
@@ -303,6 +493,8 @@
 "IronWorks" = "Iron Works";
 /* Jewelry */
 "Jewelry" = "Jewelry";
+/* Journalism */
+"Journalism" = "Journalism";
 /* KaolinClay */
 "KaolinClay" = "KaolinClay";
 /* Level points */
@@ -311,12 +503,18 @@
 "LEVEL_POINTS_SUBHEADLINE" = "Total points that needs the current level of the building";
 /* Locked */
 "LOCKED_MESSAGE" = "Locked";
+/* Land Reclamation */
+"LandReclamation" = "Land Reclamation";
 /* Late Middle Ages */
 "LateMiddleAges" = "Late Middle Ages";
 /* Latex */
 "Latex" = "Latex";
+/* Law and Order */
+"LawandOrder" = "Law and Order";
 /* Leather Working */
 "LeatherWorking" = "Leather Working";
+/* Letterpress */
+"Letterpress" = "Letterpress";
 /* Lighthouse of Alexandria */
 "LighthouseofAlexandria" = "Lighthouse of Alexandria";
 /* Limestone */
@@ -325,12 +523,18 @@
 "LimestoneRock" = "LimestoneRock";
 /* Liquid Cluster */
 "LiquidCluster" = "Liquid Cluster";
+/* Local Purchasing */
+"LocalPurchasing" = "Local Purchasing";
 /* Lode of Minerals */
 "LodeOfMinerals" = "Lode of Minerals";
 /* Lode of Minerals */
 "LodeOfMinerals" = "Lode of Minerals";
+/* Longbows */
+"Longbows" = "Longbows";
 /* Lotus Temple */
 "LotusTemple" = "Lotus Temple";
+/* Low-Temp Science */
+"LowTempScience" = "Low-Temp Science";
 /* Lubricant */
 "Lubricant" = "Lubricant";
 /* Lumber */
@@ -339,34 +543,78 @@
 "LuxuryMaterials" = "Luxury Materials";
 /* Machine Parts */
 "MachineParts" = "Machine Parts";
+/* Malthusian Theory */
+"MalthusianTheory" = "Malthusian Theory";
+/* Manufacturing */
+"Manufacturing" = "Manufacturing";
 /* Manuring */
 "Manuring" = "Manuring";
 /* Marble */
 "Marble" = "Marble";
 /* Marble Rock */
 "MarbleRock" = "Marble Rock";
+/* Maritime Shipping */
+"MaritimeShipping" = "Maritime Shipping";
 /* Mars Microbes */
 "MarsMicrobes" = "Mars Microbes";
 /* Mars Ore */
 "MarsOre" = "Mars Ore";
+/* Mass Manufacturing */
+"MassManufacturing" = "Mass Manufacturing";
+/* Mass Mobilization */
+"MassMobilization" = "Mass Mobilization";
 /* Mathematics */
 "Mathematics" = "Mathematics";
+/* Mechanized Artillery */
+"MechanizedArtillery" = "Mechanized Artillery";
+/* Mechanized Infantry */
+"MechanizedInfantry" = "Mechanized Infantry";
+/* Medicine */
+"Medicine" = "Medicine";
 /* Mercenaries */
 "Mercenaries" = "Mercenaries";
+/* Metal Working */
+"MetalWorking" = "Metal Working";
 /* Microgreen Supplement */
 "MicrogreenSupplement" = "Microgreen Supplement";
+/* Military Interventions */
+"MilitaryInterventions" = "Military Interventions";
 /* Military Tactics */
 "MilitaryTactics" = "Military Tactics";
 /* Militia */
 "Militia" = "Militia";
+/* Missile Artillery */
+"MissileArtillery" = "Missile Artillery";
+/* Mobile Air Defense */
+"MobileAirDefense" = "Mobile Air Defense";
+/* Modern Chemistry */
+"ModernChemistry" = "Modern Chemistry";
+/* Modern Electronics */
+"ModernElectronics" = "Modern Electronics";
 /* Modern Era */
 "ModernEra" = "Modern Era";
+/* Modern Explosives */
+"ModernExplosives" = "Modern Explosives";
+/* Modern Manufacturing */
+"ModernManufacturing" = "Modern Manufacturing";
+/* Modern Materials */
+"ModernMaterials" = "Modern Materials";
+/* Modern Roads */
+"ModernRoads" = "Modern Roads";
+/* Modern Tanks */
+"ModernTanks" = "Modern Tanks";
 /* Monarchy */
 "Monarchy" = "Monarchy";
+/* Monotheism */
+"Monotheism" = "Monotheism";
+/* Motels */
+"Motels" = "Motels";
 /* Mounted Archers */
 "MountedArchers" = "Mounted Archers";
 /* Multistory Houses */
 "MultistoryHouses" = "Multistory Houses";
+/* Muskets */
+"Muskets" = "Muskets";
 /* Name */
 "NAME" = "Name";
 /* Nanites */
@@ -375,18 +623,26 @@
 "Nanoparticles" = "Nanoparticles";
 /* Nanowire */
 "Nanowire" = "Nanowire";
+/* New Crops */
+"NewCrops" = "New Crops";
 /* New Spice Mix */
 "NewSpiceMix" = "New Spice Mix";
+/* New Trade Routes */
+"NewTradeRoutes" = "New Trade Routes";
 /* Nickel */
 "Nickel" = "Nickel";
 /* Nickel Deposit */
 "NickelDeposit" = "Nickel Deposit";
+/* Nightlife */
+"Nightlife" = "Nightlife";
 /* NikelOre */
 "NikelOre" = "NikelOre";
 /* Notre Dame */
 "NotreDame" = "Notre Dame";
 /* Nutrition Research */
 "NutritionResearch" = "Nutrition Research";
+/* Nutrition Science */
+"NutritionScience" = "Nutrition Science";
 /* Nutritional Coil */
 "NutritionalCoil" = "Nutritional Coil";
 /* Ok */
@@ -395,8 +651,16 @@
 "Observatory" = "Observatory";
 /* Oceanic Future */
 "OceanicFuture" = "Oceanic Future";
+/* Off-Road Tactics */
+"OffRoadTactics" = "Off-Road Tactics";
+/* Oil Refining */
+"OilRefining" = "Oil Refining";
+/* Optics */
+"Optics" = "Optics";
 /* Oracle of Delphi */
 "OracleofDelphi" = "Oracle of Delphi";
+/* Orbital Networks */
+"OrbitalNetworks" = "Orbital Networks";
 /* Orichalcum */
 "Orichalcum" = "Orichalcum";
 /* Phone number */
@@ -419,14 +683,30 @@
 "Paths" = "Paths";
 /* Pearls */
 "Pearls" = "Pearls";
+/* Percussion Fuze */
+"PercussionFuze" = "Percussion Fuze";
+/* Pest Control */
+"PestControl" = "Pest Control";
+/* Petroleum Industry */
+"PetroleumIndustry" = "Petroleum Industry";
 /* Phalanx */
 "Phalanx" = "Phalanx";
+/* Physical Education */
+"PhysicalEducation" = "Physical Education";
+/* Physical Security */
+"PhysicalSecurity" = "Physical Security";
 /* Physics */
 "Physics" = "Physics";
+/* Pike Square */
+"PikeSquare" = "Pike Square";
 /* PineWood */
 "PineWood" = "PineWood";
 /* Plankton */
 "Plankton" = "Plankton";
+/* Plantation Goods */
+"PlantationGoods" = "Plantation Goods";
+/* Plantations */
+"Plantations" = "Plantations";
 /* Plastics */
 "Plastics" = "Plastics";
 /* Platinum Crystals */
@@ -437,12 +717,28 @@
 "Police" = "Police";
 /* Porcelain */
 "Porcelain" = "Porcelain";
+/* Porcelain */
+"Porcelain" = "Porcelain";
 /* Postmodern Era */
 "PostmodernEra" = "Postmodern Era";
 /* Pottery */
 "Pottery" = "Pottery";
+/* Power Distribution */
+"PowerDistribution" = "Power Distribution";
+/* Precise Forecasting */
+"PreciseForecasting" = "Precise Forecasting";
+/* Precision Tools */
+"PrecisionTools" = "Precision Tools";
+/* Prefab High-Rises */
+"PrefabHighRises" = "Prefab High-Rises";
+/* Prefab Houses */
+"PrefabHouses" = "Prefab Houses";
+/* Prefabrication */
+"Prefabrication" = "Prefabrication";
 /* Preservatives */
 "Preservatives" = "Preservatives";
+/* Private Transport */
+"PrivateTransport" = "Private Transport";
 /* Proccessed Materials */
 "ProccessedMaterials" = "Proccessed Materials";
 /* Processing */
@@ -453,8 +749,14 @@
 "ProgressiveEra" = "Progressive Era";
 /* Promethium */
 "Promethium" = "Promethium";
+/* Public Transport */
+"PublicTransport" = "Public Transport";
 /* Purified Water */
 "PurifiedWater" = "Purified Water";
+/* Quality Products  */
+"QualityProducts" = "Quality Products ";
+/* Quantum Communication */
+"QuantumCommunication" = "Quantum Communication";
 /* Quarries */
 "Quarries" = "Quarries";
 /* Quartz */
@@ -463,16 +765,40 @@
 "REQUIRED_POINTS" = "Required points";
 /* Requires */
 "REQUIRES" = "Requires";
+/* Railroad */
+"Railroad" = "Railroad";
 /* Rain Forest Project */
 "RainForestProject" = "Rain Forest Project";
+/* Ranching */
+"Ranching" = "Ranching";
+/* Rapid Deployment */
+"RapidDeployment" = "Rapid Deployment";
+/* Rapid Response */
+"RapidResponse" = "Rapid Response";
 /* RawAlabaster */
 "RawAlabaster" = "RawAlabaster";
+/* Reactive Armor */
+"ReactiveArmor" = "Reactive Armor";
+/* Reconnaissance */
+"Reconnaissance" = "Reconnaissance";
+/* Recreation */
+"Recreation" = "Recreation";
+/* Recycled Materials */
+"RecycledMaterials" = "Recycled Materials";
+/* Renewable Energy */
+"RenewableEnergy" = "Renewable Energy";
 /* Renewable Resources */
 "RenewableResources" = "Renewable Resources";
+/* Renewable Resources */
+"RenewableResources" = "Renewable Resources";
+/* Rifles */
+"Rifles" = "Rifles";
 /* Robots */
 "Robots" = "Robots";
 /* Rock */
 "Rock" = "Rock";
+/* Rocket Artillery */
+"RocketArtillery" = "Rocket Artillery";
 /* Roof Tile Houses */
 "RoofTileHouses" = "Roof Tile Houses";
 /* Rope */
@@ -495,14 +821,24 @@
 "SaintBasilsCathedral" = "Saint Basil's Cathedral";
 /* Salt */
 "Salt" = "Salt";
+/* Scoped Rifles */
+"ScopedRifles" = "Scoped Rifles";
 /* Seed Vault */
 "SeedVault" = "Seed Vault";
+/* Self-Supporting Homes */
+"SelfSupportingHomes" = "Self-Supporting Homes";
 /* Semicontuctors */
 "Semicontuctors" = "Semicontuctors";
+/* 24-7 Service */
+"Service247" = "24-7 Service";
 /* Sewerage */
 "Sewerage" = "Sewerage";
+/* Shophouses */
+"Shophouses" = "Shophouses";
 /* Siege Weapons */
 "SiegeWeapons" = "Siege Weapons";
+/* Signposting */
+"Signposting" = "Signposting";
 /* Silk */
 "Silk" = "Silk";
 /* Slingshots */
@@ -513,6 +849,8 @@
 "Smithery" = "Smithery";
 /* Soapstone */
 "Soapstone" = "Soapstone";
+/* Solar Roads */
+"SolarRoads" = "Solar Roads";
 /* Solid Materials */
 "SolidMaterials" = "Solid Materials";
 /* Soy Proteins */
@@ -525,18 +863,30 @@
 "SpaceAgeVenus" = "Space Age Venus";
 /* Space Carrier */
 "SpaceCarrier" = "Space Carrier";
+/* Space Flight */
+"SpaceFlight" = "Space Flight";
 /* Space Needle */
 "SpaceNeedle" = "Space Needle";
 /* Spears */
 "Spears" = "Spears";
+/* Special Operations */
+"SpecialOperations" = "Special Operations";
+/* Species Conservation */
+"SpeciesConservation" = "Species Conservation";
+/* Spectator Sports */
+"SpectatorSports" = "Spectator Sports";
 /* SpruceWood */
 "SpruceWood" = "SpruceWood";
+/* Squad Tactics */
+"SquadTactics" = "Squad Tactics";
 /* St. Mark's Basilica */
 "St.MarksBasilica" = "St. Mark's Basilica";
 /* Star Gazer */
 "StarGazer" = "Star Gazer";
 /* Statue of Zeus */
 "StatueofZeus" = "Statue of Zeus";
+/* Stealth Technology */
+"StealthTechnology" = "Stealth Technology";
 /* Steel */
 "Steel" = "Steel";
 /* StiltHouses */
@@ -549,6 +899,10 @@
 "StoneAge" = "Stone Age";
 /* Stonework */
 "Stonework" = "Stonework";
+/* Stress Management */
+"StressManagement" = "Stress Management";
+/* Suburban Houses */
+"SuburbanHouses" = "Suburban Houses";
 /* Sugar Crystals */
 "SugarCrystals" = "Sugar Crystals";
 /* Sulphur Blocks */
@@ -559,6 +913,8 @@
 "Superconductors" = "Superconductors";
 /* Supplies */
 "Supplies" = "Supplies";
+/* Surveillance */
+"Surveillance" = "Surveillance";
 /* Sweet Scent */
 "SweetScent" = "Sweet Scent";
 /* Thank you for your comments */
@@ -579,8 +935,12 @@
 "Teaching" = "Teaching";
 /* Temple of Relics */
 "TempleofRelics" = "Temple of Relics";
+/* Tenement Houses */
+"TenementHouses" = "Tenement Houses";
 /* Terracotta Army */
 "TerracottaArmy" = "Terracotta Army";
+/* Terraforming */
+"Terraforming" = "Terraforming";
 /* Textiles */
 "Textiles" = "Textiles";
 /* Thatched Houses */
@@ -597,10 +957,14 @@
 "TheKraken" = "The Kraken";
 /* The Virgo Project​ */
 "TheVirgoProject​" = "The Virgo Project​";
+/* The West */
+"TheWest" = "The West";
 /* The Wheel */
 "TheWheel" = "The Wheel";
 /* Thermae */
 "Thermae" = "Thermae";
+/* Tidal Power */
+"TidalPower" = "Tidal Power";
 /* Tin Ore */
 "TinOre" = "Tin Ore";
 /* Tinplate */
@@ -611,6 +975,16 @@
 "Tools" = "Tools";
 /* Tower of Babel */
 "TowerofBabel" = "Tower of Babel";
+/* Town Houses */
+"TownHouses" = "Town Houses";
+/* Tracked Vehicles */
+"TrackedVehicles" = "Tracked Vehicles";
+/* Trade Routes */
+"TradeRoutes" = "Trade Routes";
+/* Trading Charters */
+"TradingCharters" = "Trading Charters";
+/* Traffic Lanes */
+"TrafficLanes" = "Traffic Lanes";
 /* Transester Gas */
 "TransesterGas" = "Transester Gas";
 /* Translucent Concrete */
@@ -625,14 +999,28 @@
 "TungstenOre" = "Tungsten Ore";
 /* Unlocked */
 "UNLOCKED_MESSAGE" = "Unlocked";
+/* Underground Houses */
+"UndergroundHouses" = "Underground Houses";
 /* Unrefined Salt */
 "UnrefinedSalt" = "Unrefined Salt";
+/* Urbanization */
+"Urbanization" = "Urbanization";
 /* Venus Carbon */
 "VenusCarbon" = "Venus Carbon";
+/* Victorian Houses */
+"VictorianHouses" = "Victorian Houses";
 /* Virtual Future */
 "VirtualFuture" = "Virtual Future";
 /* Voyager V1 */
 "VoyagerV1" = "Voyager V1";
+/* Waste Management */
+"WasteManagement" = "Waste Management";
+/* Water Reservoirs */
+"WaterReservoirs" = "Water Reservoirs";
+/* Water Wheels */
+"WaterWheels" = "Water Wheels";
+/* Waterfront Residentials */
+"WaterfrontResidentials" = "Waterfront Residentials";
 /* Whale Oil */
 "WhaleOil" = "Whale Oil";
 /* Whales */
@@ -641,10 +1029,16 @@
 "Wine" = "Wine";
 /* Wire */
 "Wire" = "Wire";
+/* Wireless Power Transmission */
+"WirelessPowerTransmission" = "Wireless Power Transmission";
 /* Woodwork */
 "Woodwork" = "Woodwork";
 /* Wool */
 "Wool" = "Wool";
+/* Workers' Houses */
+"WorkersHouses" = "Workers' Houses";
+/* Xenomineralogy */
+"Xenomineralogy" = "Xenomineralogy";
 /* Zinc Ore */
 "ZincOre" = "Zinc Ore";
 /* Age */

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B83B089F270C5B7F00F8ABC4 /* KaravasSwiftUtilsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B83B089E270C5B7F00F8ABC4 /* KaravasSwiftUtilsLibrary */; };
+		B83B08A1270E1AEE00F8ABC4 /* TechnologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B08A0270E1AEE00F8ABC4 /* TechnologyView.swift */; };
+		B83B08A3270E21A700F8ABC4 /* Technology.json in Resources */ = {isa = PBXBuildFile; fileRef = B83B08A2270E21A700F8ABC4 /* Technology.json */; };
 		B848C111269C4ED30038C5C0 /* FoeHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848C110269C4ED30038C5C0 /* FoeHelperApp.swift */; };
 		B848C113269C4ED30038C5C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848C112269C4ED30038C5C0 /* ContentView.swift */; };
 		B848C115269C4ED40038C5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848C114269C4ED40038C5C0 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B83B08A0270E1AEE00F8ABC4 /* TechnologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyView.swift; sourceTree = "<group>"; };
+		B83B08A2270E21A700F8ABC4 /* Technology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Technology.json; sourceTree = "<group>"; };
 		B848C10D269C4ED30038C5C0 /* FoeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B848C110269C4ED30038C5C0 /* FoeHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoeHelperApp.swift; sourceTree = "<group>"; };
 		B848C112269C4ED30038C5C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 				B8DA5DA02705F0B000C2D387 /* AgesView.swift */,
 				B8DA5DA5270636DD00C2D387 /* AgeView.swift */,
 				B8DA5DAB270700DF00C2D387 /* GoodView.swift */,
+				B83B08A0270E1AEE00F8ABC4 /* TechnologyView.swift */,
 			);
 			path = FoeHelper;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 				B848C117269C4ED40038C5C0 /* Preview Assets.xcassets */,
 				B8DA5DA927063DA100C2D387 /* Age.json */,
 				B8DA5DAD27070E3700C2D387 /* Good.json */,
+				B83B08A2270E21A700F8ABC4 /* Technology.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 				B8DA5DAA27063DA100C2D387 /* Age.json in Resources */,
 				B888CB36269EECC300D60AEF /* Localizable.strings in Resources */,
 				B848C115269C4ED40038C5C0 /* Assets.xcassets in Resources */,
+				B83B08A3270E21A700F8ABC4 /* Technology.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83B08A1270E1AEE00F8ABC4 /* TechnologyView.swift in Sources */,
 				B848C120269C50C40038C5C0 /* AttackBuildingView.swift in Sources */,
 				B8DA5D9D2705EF5400C2D387 /* DataStructures.swift in Sources */,
 				B848C124269C6D830038C5C0 /* ContactUsView.swift in Sources */,
