@@ -32,7 +32,7 @@ struct TechnologyView: View {
                     HStack{
                         Text(NSLocalizedString(good.code , comment: ""))
                         Spacer()
-                        Text(NSLocalizedString(String(good.amount ?? 0) , comment: ""))
+                        Text(NSLocalizedString(String(good.amount ?? "") , comment: ""))
                     }
                     }
                 }

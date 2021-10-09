@@ -69,6 +69,7 @@ struct ContentView: View {
                         label: {
                             Text(NSLocalizedString("CONTACT_US", comment: "Contact us"))
                         })
+                    Text(NSLocalizedString("whatToCome", comment: "What to come"))
                 }
                 
                 .navigationTitle(NSLocalizedString("START_MESSAGE", comment: "Start"))

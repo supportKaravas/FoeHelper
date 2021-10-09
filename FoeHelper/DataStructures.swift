@@ -13,7 +13,7 @@ let urlString = "http://127.0.0.1:8080/gkaravas/foeHelper/external/postman"
 public struct Technology: Codable, Identifiable{
     public var code: String
     public var id: Int
-    public var amount: Int?
+    public var amount: String?
     public var points: Int?
     public var goods: [Good]?
 }
@@ -24,7 +24,7 @@ public struct Good: Codable, Identifiable{
     public var age: String?
     public var technologies: [Technology]?
     public var totalTechAmount: Int?
-    public var amount: Int?
+    public var amount: String?
 }
 
 public struct Age: Codable, Identifiable{

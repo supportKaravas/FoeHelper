@@ -2,25 +2,55 @@
   Localizable.strings
   GShopIOS
 
-    Created by George Karavas on 2021-10-06.
+    Created by George Karavas on 2021-10-10.
   
 */
+/* A.G.F. Upgrade */
+"AGFUpgrade" = "Αναβάθμιση Πεδίων Αντιβαρύτητας";
 /* A.I. Data */
 "AIData" = "Στοιχεία Τεχνητής Νοημοσύνης";
+/* A.I. Research */
+"AIResearch" = "Έρευνα Τεχνητής Νοημοσύνης";
 /* Arc percentage */
 "ARC_PRC_RETURN" = "Ποσοστό επιστροφής του θόλου σας";
 /* Enter th contribution reward boost given by your Arc */
 "ARC_PRC_RETURN_SUBHEADLINE" = "Εισάγετε το ποσοστό επιστροφής του θόλου σας";
 /* Building attack */
 "ATTACK_BUILDING" = "Λεηλασία κτηρίου";
+/* Accelerated Breaching */
+"AcceleratedBreaching" = "Ταχεία Ρωγμή";
+/* Accelerated Food Engineering */
+"AcceleratedFoodEngineering" = "Ταχεία Τεχνολογία Τροφίμων";
+/* Accelerated Shipbuilding */
+"AcceleratedShipbuilding" = "Ταχεία Ναυπηγική";
 /* Accommodation */
 "Accommodation" = "Διαμονή";
 /* Additive Manufacturing */
 "AdditiveManufacturing" = "Παρασκευή Πρόσθετων";
+/* Advanced Aquanautics */
+"AdvancedAquanautics" = "Προηγμένη Μελέτη του Βυθου";
+/* Advanced Aviation Control */
+"AdvancedAviationControl" = "Προηγμένος Έλεγχος Πτήσης";
+/* Advanced Heliograph */
+"AdvancedHeliograph" = "Προηγμένος Ηλιογράφος";
+/* Advanced Homokinetic Joints */
+"AdvancedHomokineticJoints" = "Προηγμένοι Ομοκινητικοί Σύνδεσμοι";
+/* Advanced Hydrophones */
+"AdvancedHydrophones" = "Προηγμένα Υδρόφωνα";
+/* Advanced Hydroponics */
+"AdvancedHydroponics" = "Προηγμένη Υδροπονία";
+/* Advanced Transesterification */
+"AdvancedTransesterification" = "Προηγμένη Μετεστεροποίηση";
+/* Advanced Vacuum Distillation */
+"AdvancedVacuumDistillation" = "Προηγμένη Διύλιση Κενού";
 /* Advertisement */
 "Advertisement" = "Διαφήμιση";
 /* Aerial Fire Support */
 "AerialFireSupport" = "Εναέρια Πυρά Υποστήριξης";
+/* Aerogel Concrete */
+"AerogelConcrete" = "Σκυρόδεμα Αεροτζέλ";
+/* Agglomeration Architecture */
+"AgglomerationArchitecture" = "Αρχιτεκτονική Πολεοδομικών Συγκροτημάτων";
 /* Agriculture */
 "Agriculture" = "Γεωργία";
 /* Alabaster */
@@ -35,6 +65,8 @@
 "Annexes" = "Παραρτήματα";
 /* Anti-Gravitation */
 "AntiGravitation" = "Αντιβαρύτητα";
+/* Anti-Gravitational Fields */
+"AntiGravitationalFields" = "Πεδία Αντιβαρύτητας";
 /* Anti-Tank Warfare */
 "AntiTankWarfare" = "Αντιαρματικά Οπλικά Συστήματα";
 /* Antibiotics */
@@ -43,6 +75,14 @@
 "ApartmentHouses" = "Κτίριο Διαμερισμάτων";
 /* Apiary */
 "Apiary" = "Μελίσσι";
+/* Aqua Terraforming */
+"AquaTerraforming" = "Υδάτινη Γαιοποίηση";
+/* Aqua Therapy */
+"AquaTherapy" = "Υδροθεραπεία";
+/* Aquabotanics */
+"Aquabotanics" = "Θαλάσσια Βοτανική";
+/* Aqualoop */
+"Aqualoop" = "Θαλάσσια Υπερταχεία";
 /* Arcade Houses */
 "ArcadeHouses" = "Σπίτια Ψυχαγωγίας";
 /* Archery */
@@ -51,10 +91,20 @@
 "Architecture" = "Αρχιτεκτονική";
 /* Arcologies */
 "Arcologies" = "Οικολογικοί θόλοι";
+/* Arctic Cargo */
+"ArcticCargo" = "Αρκτικό Φορτίο";
 /* Arctic Future */
 "ArcticFuture" = "Αρκτικό Μέλλον";
+/* Arctic Harvest */
+"ArcticHarvest" = "Αρκτική Σοδειά";
+/* Arctic Mining */
+"ArcticMining" = "Αρκτική Εξόρυξη";
+/* Arctic Navigation */
+"ArcticNavigation" = "Αρκτική Πλοήγηση";
 /* Arctic Orangery */
 "ArcticOrangery" = "Αρκτικός Πορτοκαλεώνας";
+/* Arctic Stations */
+"ArcticStations" = "Αρκτικοί Σταθμοί";
 /* Aristocracy */
 "Aristocracy" = "Αριστοκρατία";
 /* Armor-Piercing Shells */
@@ -63,20 +113,34 @@
 "ArmorPlating" = "Θωράκιση";
 /* Armored Infantry */
 "ArmoredInfantry" = "Θωρακισμένο Πεζικό";
+/* Artificial Gravitation Module */
+"ArtificialGravitationModule" = "Μονάδα Τεχνητής Βαρύτητας";
 /* Artificial Scales */
 "ArtificialScales" = "Τεχνητά Λέπια";
+/* Artificial Snowflakes */
+"ArtificialSnowflakes" = "Αρκτικές Χιονονιφάδες";
 /* Asbestos */
 "Asbestos" = "Αμίαντος";
 /* Asbestos Ore */
 "AsbestosOre" = "Αμιαντομετάλλευμα";
+/* Asteroid Goods Synthesizing I */
+"AsteroidGoodsSynthesizingI" = "Σύνθεση Αγαθών Αστεροειδή Ι";
+/* Asteroid Goods Synthesizing II */
+"AsteroidGoodsSynthesizingII" = "Σύνθεση Αγαθών Αστεροειδή ΙΙ";
 /* Asteroid Ice */
 "AsteroidIce" = "Πάγος Αστεροειδή";
 /* Atlantis Museum */
 "AtlantisMuseum" = "Μουσείο Ατλαντίδας";
+/* Atmospheric Aerostats */
+"AtmosphericAerostats" = "Ατμοσφαιρικά Αερόστατα";
+/* Atmospheric Research */
+"AtmosphericResearch" = "Ατμοσφαιρική Έρευνα";
 /* Atomium */
 "Atomium" = "Ατόμιο";
 /* Autobahns */
 "Autobahns" = "Μεγάλοι Αυτοκινητόδρομοι";
+/* Automated Bureaucracy */
+"AutomatedBureaucracy" = "Αυτοματοποιημένη Γραφειοκρατία";
 /* Automation */
 "Automation" = "Αυτοματισμός";
 /* Automobiles */
@@ -93,22 +157,36 @@
 "BioTechCrops" = "Καλλιέργειες Βιοτεχνολογίας";
 /* Biochemistry */
 "Biochemistry" = "Βιοχημεία";
+/* Biogel Refrigeration */
+"BiogelRefrigeration" = "Κατάψυξη Βιοτζέλ";
 /* Biogeogenical Data */
 "BiogeogenicalData" = "Βιογεωχημικά Στοιχεία";
 /* Biolight */
 "Biolight" = "Βιοφώς";
+/* Biological Energy Conversion */
+"BiologicalEnergyConversion" = "Μετατροπή Βιολογικής Ενέργειας";
+/* Biological Transmission */
+"BiologicalTransmission" = "Βιολογική Μετάδοση";
 /* Biology */
 "Biology" = "Βιολογία";
+/* Biomimetic Armor */
+"BiomimeticArmor" = "Βιομιμητική Πανοπλία";
 /* Bionics */
 "Bionics" = "Βιονική";
 /* Bionics Data */
 "BionicsData" = "Βιονικά Στοιχεία";
 /* Bioplastics */
 "Bioplastics" = "Βιοπλαστικά";
+/* Bioplastics */
+"Bioplastics" = "Βιοπλαστικά";
 /* Boarding Houses */
 "BoardingHouses" = "Πανσιόν";
 /* Brass */
 "Brass" = "Μπρούτζος";
+/* Braving the Deep */
+"BravingtheDeep" = "Αποτολμώντας στα Βαθιά";
+/* Break-Proof Alloys */
+"BreakProofAlloys" = "Άθραυστα Κράματα";
 /* Breech Loading */
 "BreechLoading" = "Οπισθογέμιση";
 /* Brewing */
@@ -177,8 +255,14 @@
 "ChildrensRights" = "Δικαιώματα του Παιδιού";
 /* Chivalry */
 "Chivalry" = "Ιπποτισμός";
+/* Chromatophore Synthesis */
+"ChromatophoreSynthesis" = "Χρωματοφόρα Σύνθεση";
+/* Chrysaniline */
+"Chrysaniline" = "Χρυσαλίνη";
 /* Château Frontenac */
 "ChâteauFrontenac" = "Κάστρο Frontenac";
+/* Citizen Score System */
+"CitizenScoreSystem" = "Σύστημα Βαθμολογίας Πολιτών";
 /* Clapboard Houses */
 "ClapboardHouses" = "Σπίτι από Σανίδες";
 /* Clay */
@@ -189,6 +273,8 @@
 "Clearing" = "Καθάρισμα Εδάφους, Εκχέρσωση";
 /* Climate Control */
 "ClimateControl" = "Κλιματικός Έλεγχος";
+/* Clock Tower Apartments */
+"ClockTowerApartments" = "Διαμερίσματα σε Πύργο Ρολόι";
 /* Clockmaking */
 "Clockmaking" = "Ωρολογοποιός";
 /* Cloth */
@@ -197,6 +283,8 @@
 "Coal" = "Κάρβουνο";
 /* Cocoons */
 "Cocoons" = "Κουκούλια";
+/* Codex of Honor 2.0 */
+"CodexofHonor20" = "Κώδικας Τιμής 2.0";
 /* Coffee */
 "Coffee" = "Καφές";
 /* CoffeeBeans */
@@ -213,12 +301,18 @@
 "Colosseum" = "Κολοσσαίο";
 /* Combat Drones */
 "CombatDrones" = "Μαχητικά Αερομπότ";
+/* Combat Traditions */
+"CombatTraditions" = "Στρατιωτικές Παραδόσεις";
+/* Combined Weapon Systems */
+"CombinedWeaponSystems" = "Συνδυασμένα Οπλικά Συστήματα";
 /* Commercial Aviation */
 "CommercialAviation" = "Πολιτική Αεροπορία";
 /* Composite Armor */
 "CompositeArmor" = "Σύνθετη Θωράκιση";
 /* Compound Fluid */
 "CompoundFluid" = "Σύνθετα Υλικά";
+/* Compounding Robotics */
+"CompoundingRobotics" = "Συνδυαστική Ρομποτική";
 /* Compression Method */
 "CompressionMethod" = "Μέθοδος Συμπίεσης";
 /* Condominiums */
@@ -233,12 +327,18 @@
 "Consumerism" = "Καταναλωτισμός";
 /* Contemporary Era */
 "ContemporaryEra" = "Σημερινή Εποχή";
+/* Controlled Lightning */
+"ControlledLightning" = "Ελεγχόμενη Αστραπή";
 /* Convenience Food */
 "ConvenienceFood" = "Συσκευασμένα Τρόφιμα";
 /* Copper */
 "Copper" = "Χαλκός";
 /* CopperOre */
 "CopperOre" = "Μετάλλευμα Χαλκού";
+/* Coral Domestication */
+"CoralDomestication" = "Εξημέρωση Κοραλλιών";
+/* Coral Propagation */
+"CoralPropagation" = "Αναπαραγωγή Κοραλλιών";
 /* Corals */
 "Corals" = "Κοράλλια";
 /* Cottage */
@@ -251,6 +351,8 @@
 "Counterstrategy" = "Στρατηγική Αντεπίθεσης";
 /* Country Houses */
 "CountryHouses" = "Εξοχικές Κατοικίες";
+/* Covalent Solids */
+"CovalentSolids" = "Ομοιοπολικά Στερεά";
 /* Craftwork */
 "Craftwork" = "Χειροτεχνία";
 /* Crane */
@@ -261,18 +363,34 @@
 "Crossbows" = "Βαλλίστρες";
 /* Crude Oil */
 "CrudeOil" = "Αργό Πετρέλαιο";
+/* Cryo Botany */
+"CryoBotany" = "Κρυοβοτανική";
 /* Crypto Cash */
 "CryptoCash" = "Κρυπτομετρητές";
+/* Crypto Gambling */
+"CryptoGambling" = "Τζόγος Κρυπτονομισμάτων";
+/* Crystal Villas */
+"CrystalVillas" = "Κρυστάλλινες Βίλες";
 /* Cultivation */
-"Cultivation" = "Καλλιέργeια";
+"Cultivation" = "Καλλιέργεια";
+/* Cultural Resurgence */
+"CulturalResurgence" = "Πολιτιστική Άνοδος";
+/* Cybernetically Augmented Ninjutsu */
+"CyberneticallyAugmentedNinjutsu" = "Κυβερνητικά Επαυξημένο Νινζουτσου";
 /* Data Crystals */
 "DataCrystals" = "Κρύσταλλοι Δεδομένων";
 /* Deal Castle */
 "DealCastle" = "Deal Castle";
+/* Deep Sea Exploration */
+"DeepSeaExploration" = "Εξερεύνηση Ανοικτής Θάλασσας";
+/* Deepwater Drilling */
+"DeepwaterDrilling" = "Γεώτρηση Μεγάλου Βάθους";
 /* Deuterium */
 "Deuterium" = "Δευτέριο";
 /* Diatomite */
 "Diatomite" = "Διατομίτης";
+/* Directed Nature */
+"DirectedNature" = "Κατευθυνόμενη Φύση";
 /* Dried Herbs */
 "DriedHerbs" = "Αποξηραμένα Βότανα";
 /* Drones */
@@ -281,6 +399,8 @@
 "DuplexHouses" = "Διπλοκατοικίες";
 /* Dye */
 "Dye" = "Βαφή";
+/* EMP Transmission */
+"EMPTransmission" = "Μετάδοση ΗΜΠ";
 /* Error */
 "ERROR" = "Λάθος";
 /* e-mail */
@@ -293,22 +413,44 @@
 "Ebony" = "Έβενος";
 /* Ebony Tree */
 "EbonyTree" = "Δέντρο Έβενου";
+/* Eco-exploration */
+"EcoExploration" = "Οικολογική Εξερεύνηση";
+/* Eco-Urban Lifestyle */
+"EcoUrbanLifestyle" = "Αστικο-οικολογικός Τρόπος Ζωής";
 /* Economics */
 "Economics" = "Οικονομικά";
+/* Efficient DNA Analysis */
+"EfficientDNAAnalysis" = "Αποδοτική Ανάλυση DNA";
 /* Electricity */
 "Electricity" = "Ηλεκτρισμός";
 /* Electromagnets */
 "Electromagnets" = "Ηλεκτρομαγνήτες";
+/* Electronic Tattoos */
+"ElectronicTattoos" = "Ηλεκτρονικά Τατουάζ";
 /* Elite Forces */
 "EliteForces" = "Επίλεκτες Δυνάμεις";
+/* Encrypted Digital Licensing */
+"EncryptedDigitalLicensing" = "Κρυπτογραφημένη Ψηφιακή Αδειοδότηση";
+/* Energy Preserving Surfaces */
+"EnergyPreservingSurfaces" = "Επιφάνειες Διατήρησης Ενέργειας";
+/* Engineered Nuclei */
+"EngineeredNuclei" = "Κατασκευασμένοι Πυρήνες";
 /* Enhanced Formula */
 "EnhancedFormula" = "Ενισχυμένη Φόρμουλα";
+/* Enhanced Plasteel */
+"EnhancedPlasteel" = "Ενισχυμένο Plasteel";
+/* Enhanced Streamlining */
+"EnhancedStreamlining" = "Ενισχυμένη Βελτιστοποίηση";
+/* Entangled Nuclear Fusion */
+"EntangledNuclearFusion" = "Περίπλοκη Πυρηνική Σύντηξη";
 /* Environmental Standards */
 "EnvironmentalStandards" = "Περιβαντολλογικά Πρότυπα";
 /* Equality */
 "Equality" = "Ισότητα";
 /* Estate Houses */
 "EstateHouses" = "Σπίτι σε Κτήμα";
+/* Evolving VR Overlays */
+"EvolvingVROverlays" = "Εξελισσόμενες Αναπαραστάσεις VR";
 /* Executions */
 "Executions" = "Εκτελέσεις";
 /* Exploration */
@@ -317,8 +459,12 @@
 "Explosives" = "Εκρηκτικά";
 /* Extended Gaussian Distribution */
 "ExtendedGaussianDistribution" = "Εκτεταμένη Γκαουσιανή Κατανομή";
+/* Extended Quality Assurance */
+"ExtendedQualityAssurance" = "Εκτεταμένη Διασφάλιση Ποιότητας";
 /* Extraction */
 "Extraction" = "Εξόρυξη";
+/* Extreme Weather Prevention */
+"ExtremeWeatherPrevention" = "Πρόληψη Ακραίων Καιρικών Φαινομένων";
 /* FOE Helper */
 "FOE_HELPER_TITLE" = "FOE Helper";
 /* Fashion */
@@ -337,16 +483,28 @@
 "FlankingTactics" = "Τακτικές Πλαγιοκόπησης";
 /* Flavorands */
 "Flavorands" = "Αρωματικά";
+/* Flexible Anchor Station */
+"FlexibleAnchorStation" = "Σταθμός Εύκαμπτης Άγκυρας";
+/* Flexible Glass */
+"FlexibleGlass" = "Εύκαμπτο Γυαλί";
+/* Flotation Surfactants */
+"FlotationSurfactants" = "Επιφανειοδραστικές Ουσίες Επίπλευσης";
 /* Flower */
 "Flower" = "Λουλούδι";
+/* Fluid Cleaning System */
+"FluidCleaningSystem" = "Σύστημα Καθαρισμού Υγρών";
 /* Fluorescent Particles */
 "FluorescentParticles" = "Φθορίζοντα Σωματίδια";
 /* Flying Island */
 "FlyingIsland" = "Ιπτάμενο Νησί";
+/* Flying Plants */
+"FlyingPlants" = "Ιπτάμενα Φυτά";
 /* Food Engineering */
 "FoodEngineering" = "Τεχνολογία Τροφίμων";
 /* Food Processing */
 "FoodProcessing" = "Επεξεργασία Τροφίμων";
+/* Formulated Law For Spacefaring */
+"FormulatedLawForSpacefaring" = "Νόμος Διαστημικών Ταξιδιών";
 /* Fortification */
 "Fortification" = "Οχύρωση";
 /* Fosil Site */
@@ -355,6 +513,8 @@
 "FrameHouses" = "Σπίτι με Ξύλινο Σκελετό";
 /* Frauenkirche of Dresden */
 "FrauenkircheofDresden" = "Frauenkirche της Δρέσδης";
+/* Frost Immunity */
+"FrostImmunity" = "Ανοσία στον Πάγο";
 /* Fusion Power */
 "FusionPower" = "Ενέργεια Σύντηξης";
 /* Fusion Refactors */
@@ -379,6 +539,10 @@
 "GeneticsResearch" = "Γενετική Έρευνα";
 /* Genome Data */
 "GenomeData" = "Γονιδιωματικά Στοιχεία";
+/* Genome Recoding */
+"GenomeRecoding" = "Επανακωδικοποίηση Γονιδιώματος";
+/* Geochemical Prospecting */
+"GeochemicalProspecting" = "Γεωχημική Έρευνα";
 /* Glass */
 "Glass" = "Γυαλί";
 /* Globalization */
@@ -417,6 +581,10 @@
 "HagiaSophia" = "Αγία Σοφιά";
 /* Handicraft */
 "Handicraft" = "Χειροτεχνία";
+/* Hardened Scales */
+"HardenedScales" = "Σκληρά Λέπια";
+/* Heat Regulation Modules */
+"HeatRegulationModules" = "Μονάδες Ρύθμισης Θερμότητας";
 /* Heavy Armor  */
 "HeavyArmor" = "Βαριά Πανοπλία";
 /* Heavy Cavalry */
@@ -429,8 +597,12 @@
 "HerbalSnack" = "Σνακ Βοτάνων";
 /* Herbs */
 "Herbs" = "Βότανα";
+/* High Definition VR Domains */
+"HighDefinitionVRDomains" = "Τομείς VR Υψηλής Ευκρίνειας";
 /* High Middle Ages */
 "HighMiddleAges" = "Μέσος Μεσαίωνας";
+/* High Range Sonar */
+"HighRangeSonar" = "Σόναρ Υψηλών Συχνοτήτων";
 /* High-Rises  */
 "HighRises" = "Ουρανοξύστες";
 /* High Society */
@@ -443,6 +615,8 @@
 "HimejiCastle" = "Κάστρο Himeji";
 /* Hollywood */
 "Hollywood" = "Χόλιγουντ";
+/* Holographic Currency */
+"HolographicCurrency" = "Ολογραφικό Νόμισμα";
 /* Honey */
 "Honey" = "Μέλι";
 /* Honeycomb */
@@ -453,6 +627,8 @@
 "Hospitals" = "Νοσοκομεία";
 /* Human-Machine Interface */
 "HumanMachineInterface" = "Διεπαφή Ανθρώπου-Μηχανής";
+/* Hydrodynamics */
+"Hydrodynamics" = "Υδροδυναμική";
 /* Hydrothermal Deposit */
 "HydrothermalDeposit" = "Υδροθερμικό Κοίτασμα";
 /* Hygiene */
@@ -461,6 +637,8 @@
 "INFO" = "Πληροφορία";
 /* Imperialism */
 "Imperialism" = "Ιμπεριαλισμός";
+/* Improved Logistics */
+"ImprovedLogistics" = "Βελτιωμένη Διανομή";
 /* Industrial Age */
 "IndustrialAge" = "Βιομηχανική Εποχή";
 /* Industrial Design */
@@ -481,8 +659,14 @@
 "InnovationTower" = "Πύργος Ανακωχής";
 /* Intelligence */
 "Intelligence" = "Ευφυΐα, Λογική, Νοημοσύνη";
+/* Inter-Divisional Controls */
+"InterDivisionalControls" = "Διατμηματικός Έλεγχος";
 /* Internet */
 "Internet" = "Διαδίκτυο";
+/* Interplanetary Permit A.38 */
+"InterplanetaryPermitA38" = "Διαπλανητική Άδεια Α.38";
+/* Iridium Infused Metal */
+"IridiumInfusedMetal" = "Μέταλλο με Έγχυση Ιριδίου";
 /* Iron */
 "Iron" = "Σίδηρος";
 /* Iron Age */
@@ -505,6 +689,8 @@
 "LOCKED_MESSAGE" = "Κλειδωμένο";
 /* Land Reclamation */
 "LandReclamation" = "Εκχέρσωση";
+/* Laser Rust Removal */
+"LaserRustRemoval" = "Αφαίρεση Σκουριάς με Λέιζερ";
 /* Late Middle Ages */
 "LateMiddleAges" = "Ύστερος Μεσαίωνας";
 /* Latex */
@@ -515,6 +701,8 @@
 "LeatherWorking" = "Εργασίες με Δέρματα";
 /* Letterpress */
 "Letterpress" = "Τυπογραφία";
+/* Lifeguarding */
+"Lifeguarding" = "Ναυαγοσωστική";
 /* Lighthouse of Alexandria */
 "LighthouseofAlexandria" = "Ο Φάρος της Αλεξάνδρειας";
 /* Limestone */
@@ -523,6 +711,8 @@
 "LimestoneRock" = "Ορυκτός Ασβεστόλιθος";
 /* Liquid Cluster */
 "LiquidCluster" = "Σύμπλεγμα Υγρών";
+/* Liquid Power Transmitter */
+"LiquidPowerTransmitter" = "Πομπός Υγρής Ισχύος";
 /* Local Purchasing */
 "LocalPurchasing" = "Αγορά Τοπικών Προϊόντων";
 /* Lode of Minerals */
@@ -535,6 +725,8 @@
 "LotusTemple" = "Ναός του Λωτού";
 /* Low-Temp Science */
 "LowTempScience" = "Επιστήμη Χαμηλής Θερμοκρασίας";
+/* Lower AI Cores */
+"LowerAICores" = "Μικρότεροι Πυρήνες Τεχνητής Νοημοσύνης";
 /* Lubricant */
 "Lubricant" = "Λιπαντικά";
 /* Lumber */
@@ -543,6 +735,10 @@
 "LuxuryMaterials" = "Υλικά Πολυτελείας";
 /* Machine Parts */
 "MachineParts" = "Μέρη Μηχανών";
+/* Maelstrom Prevention */
+"MaelstromPrevention" = "Πρόληψη Δίνης";
+/* Maelstrom Stabilization */
+"MaelstromStabilization" = "Σταθεροποίηση Δίνης";
 /* Malthusian Theory */
 "MalthusianTheory" = "Μαλθουσιανή Θεωρία";
 /* Manufacturing */
@@ -553,18 +749,34 @@
 "Marble" = "Μάρμαρο";
 /* Marble Rock */
 "MarbleRock" = "Ορυκτό Μάρμαρο";
+/* Marine Engineering */
+"MarineEngineering" = "Ναυπηγική";
+/* Maritime Archaeology */
+"MaritimeArchaeology" = "Θαλάσσια Αρχαιολογία";
 /* Maritime Shipping */
 "MaritimeShipping" = "Θαλάσσιες Αποστολές";
+/* Mars Goods Synthesizing I */
+"MarsGoodsSynthesizingI" = "Σύνθεση Αγαθών Άρη Ι";
+/* Mars Goods Synthesizing II */
+"MarsGoodsSynthesizingII" = "Σύνθεση Αγαθών Άρη ΙΙ";
+/* Mars Infrastructure */
+"MarsInfrastructure" = "Υποδομές Άρη";
 /* Mars Microbes */
 "MarsMicrobes" = "Αρειανά Μικρόβια";
 /* Mars Ore */
 "MarsOre" = "Αρειανά Μεταλλεύματα";
+/* Mars Ownership Patents */
+"MarsOwnershipPatents" = "Πατέντες Κυριότητας Άρη";
+/* Mars Regulations */
+"MarsRegulations" = "Κανονισμοί Άρη";
 /* Mass Manufacturing */
 "MassManufacturing" = "Μαζική Παραγωγή";
 /* Mass Mobilization */
 "MassMobilization" = "Μαζική Επιστράτευση";
 /* Mathematics */
 "Mathematics" = "Μαθηματικα";
+/* Mechanical Claws */
+"MechanicalClaws" = "Μηχανικές Δαγκάνες";
 /* Mechanized Artillery */
 "MechanizedArtillery" = "Μηχανοκίνητο Πυροβολικό";
 /* Mechanized Infantry */
@@ -583,10 +795,14 @@
 "MilitaryTactics" = "Στρατιωτικές Τακτικές";
 /* Militia */
 "Militia" = "Εθνοφυλακή";
+/* Mind-Controlled Robots */
+"MindControlledRobots" = "Ρομπότ ελεγχόμενα από τον Νου";
 /* Missile Artillery */
 "MissileArtillery" = "Πυραυλικό Πυροβολικό";
 /* Mobile Air Defense */
 "MobileAirDefense" = "Κινητή Αεράμυνα";
+/* Mobile Houses */
+"MobileHouses" = "Κινητά Σπίτια";
 /* Modern Chemistry */
 "ModernChemistry" = "Σύγχρονη Χημεία";
 /* Modern Electronics */
@@ -603,6 +819,8 @@
 "ModernRoads" = "Σύγχρονοι Δρόμοι";
 /* Modern Tanks */
 "ModernTanks" = "Μοντέρνα Τεθωρακισμένα Άρματα";
+/* Molecular Editing */
+"MolecularEditing" = "Μοριακή Επεξεργασία";
 /* Monarchy */
 "Monarchy" = "Μοναρχία";
 /* Monotheism */
@@ -611,6 +829,12 @@
 "Motels" = "Μοτέλ";
 /* Mounted Archers */
 "MountedArchers" = "Έφιππος Τοξότης";
+/* Multi-purpose Space Training */
+"MultiPurposeSpaceTraining" = "Πολυχρηστική Διαστημική Εκπαίδευση";
+/* Multipurpose Code Routines */
+"MultipurposeCodeRoutines" = "Διαδικασίες Πολυχρηστικού Κώδικα";
+/* Multispectral Sensors */
+"MultispectralSensors" = "Πολυφασματικοί Αισθητήρες";
 /* Multistory Houses */
 "MultistoryHouses" = "Πολυόροφο Σπίτι";
 /* Muskets */
@@ -619,12 +843,22 @@
 "NAME" = "Όνομα";
 /* Nanites */
 "Nanites" = "Νανομηχανές";
+/* Nano Habitat */
+"NanoHabitat" = "Νανοοικότοπος";
 /* Nanoparticles */
 "Nanoparticles" = "Νανοσωματίδια";
+/* Nanotubes */
+"Nanotubes" = "Νανοσωλήνες";
 /* Nanowire */
 "Nanowire" = "Νανοσύρμα";
+/* Nautilus Replica */
+"NautilusReplica" = "Αντίγραφο Ναυτίλου";
+/* Neural Augmented Frameworks */
+"NeuralAugmentedFrameworks" = "Επαυξημένα Νευρικά Πλαίσια";
 /* New Crops */
 "NewCrops" = "Νέες Καλλιέργειες";
+/* New Recruits */
+"NewRecruits" = "Νεοσύλλεκτοι";
 /* New Spice Mix */
 "NewSpiceMix" = "Νέο Μίγμα Μπαχαρικών";
 /* New Trade Routes */
@@ -637,6 +871,14 @@
 "Nightlife" = "Νυχτερινή Ζωή";
 /* NikelOre */
 "NikelOre" = "Νικέλιο";
+/* Noise-Cancelling Concrete */
+"NoiseCancellingConcrete" = "Σκυρόδεμα Εξουδετέρωσης Θορύβου";
+/* Non-Reflective Photovoltaic */
+"NonReflectivePhotovoltaic" = "Μη Ανακλαστικό Φωτοβολταϊκό";
+/* Non-Volatile Fire Shells */
+"NonVolatileFireShells" = "Μη πτητικές Οβίδες";
+/* Nonlinear Laser Pulse */
+"NonlinearLaserPulse" = "Μη Γραμμικό Παλμικό Λέιζερ";
 /* Notre Dame */
 "NotreDame" = "Η Παναγία των Παρισίων";
 /* Nutrition Research */
@@ -649,10 +891,18 @@
 "OK" = "Εντάξει";
 /* Observatory */
 "Observatory" = "Παρατηρητήριο";
+/* Ocean Cleaning Nanobots */
+"OceanCleaningNanobots" = "Νανορομπότ Καθαρισμού Ωκεανών";
+/* Ocean Colonization */
+"OceanColonization" = "Αποίκηση του Ωκεανού";
 /* Oceanic Future */
 "OceanicFuture" = "Ωκεάνιο Μέλλον";
+/* Oceanic Preservation */
+"OceanicPreservation" = "Ωκεάνια Προστασία";
 /* Off-Road Tactics */
 "OffRoadTactics" = "Τακτικές Εκτός Δρόμου";
+/* Officially Ordered Retrospective */
+"OfficiallyOrderedRetrospective" = "Αναδρομή με Επίσημη Διαταγή";
 /* Oil Refining */
 "OilRefining" = "Διύλιση Πετρελαίου";
 /* Optics */
@@ -661,8 +911,14 @@
 "OracleofDelphi" = "Μαντείο των Δελφών";
 /* Orbital Networks */
 "OrbitalNetworks" = "Τροχιακά Δίκτυα";
+/* Organic Conduction */
+"OrganicConduction" = "Οργανική Αγωγιμότητα";
 /* Orichalcum */
 "Orichalcum" = "Ορείχαλκος";
+/* Oxygen Absorbing Materials */
+"OxygenAbsorbingMaterials" = "Υλικά Απορρόφησης Οξυγόνου";
+/* Oxygen Lens */
+"OxygenLens" = "Φακός Οξυγόνου";
 /* Phone number */
 "PHONE_NUMBER_MESSAGE" = "Αριθμός τηλεφώνου";
 /* Points to win */
@@ -683,20 +939,30 @@
 "Paths" = "Δρομάκια";
 /* Pearls */
 "Pearls" = "Μαργαριτάρια";
+/* Pendulum Oscillation */
+"PendulumOscillation" = "Ταλάντωση Εκκρεμούς";
 /* Percussion Fuze */
 "PercussionFuze" = "Κρουσιφλεγής Βολίδα";
+/* Personal Paradise */
+"PersonalParadise" = "Προσωπικός Παράδεισος";
 /* Pest Control */
 "PestControl" = "Καταπολέμηση Παρασίτων";
 /* Petroleum Industry */
 "PetroleumIndustry" = "Πετρελαιοβιομηχανία";
 /* Phalanx */
 "Phalanx" = "Φάλαγγα";
+/* 3D Photon Emitters  */
+"PhotonEmitters3D" = "Πομποί 3D Φωτονίων";
+/* Photovoltaic Film */
+"PhotovoltaicFilm" = "Φωτοβολταϊκό Φίλμ";
 /* Physical Education */
 "PhysicalEducation" = "Φυσική Αγωγή";
 /* Physical Security */
 "PhysicalSecurity" = "Σωματική Ασφάλεια";
 /* Physics */
 "Physics" = "Φυσική";
+/* Pico Computing */
+"PicoComputing" = "Πίκο-Υπολογισμοί";
 /* Pike Square */
 "PikeSquare" = "Φάλαγγα με Δόρατα";
 /* PineWood */
@@ -707,6 +973,10 @@
 "PlantationGoods" = "Αγαθά φυτείας";
 /* Plantations */
 "Plantations" = "Φυτείες";
+/* Plasma Nozzles */
+"PlasmaNozzles" = "Ακροφύσια Πλάσματος";
+/* Plasma Spectroscopy */
+"PlasmaSpectroscopy" = "Φασματοσκοπία Πλάσματος";
 /* Plastics */
 "Plastics" = "Πλαστικά";
 /* Platinum Crystals */
@@ -715,6 +985,8 @@
 "Plowing" = "Όργωμα";
 /* Police */
 "Police" = "Αστυνομία";
+/* Polymerized Membranes */
+"PolymerizedMembranes" = "Πολυμερισμένες Μεμβράνες";
 /* Porcelain */
 "Porcelain" = "Πορσελάνη";
 /* Porcelain */
@@ -737,6 +1009,10 @@
 "Prefabrication" = "Προκατασκευή";
 /* Preservatives */
 "Preservatives" = "Συντηρητικά";
+/* Pressure Resistant Fuel */
+"PressureResistantFuel" = "Καύσιμο Ανθεκτικό στην Πίεση";
+/* Pressurized Plasma */
+"PressurizedPlasma" = "Συμπιεσμένο Πλάσμα";
 /* Private Transport */
 "PrivateTransport" = "Ιδιωτική Μετακίνηση";
 /* Proccessed Materials */
@@ -749,6 +1025,10 @@
 "ProgressiveEra" = "Προοδευτική εποχή";
 /* Promethium */
 "Promethium" = "Προμήθειο";
+/* Promethium Extraction */
+"PromethiumExtraction" = "Εξόρυξη Προμηθείου";
+/* Public Emitters */
+"PublicEmitters" = "Δημόσιοι Πομποί";
 /* Public Transport */
 "PublicTransport" = "Μέσα Μαζικής Μεταφοράς";
 /* Purified Water */
@@ -757,6 +1037,8 @@
 "QualityProducts" = "Ποιοτικά Προϊόντα";
 /* Quantum Communication */
 "QuantumCommunication" = "Κβαντική Επικοινωνία";
+/* Quantum Photogrammetry */
+"QuantumPhotogrammetry" = "Κβαντική Φωτογραμμετρία";
 /* Quarries */
 "Quarries" = "Λατομία";
 /* Quartz */
@@ -765,6 +1047,8 @@
 "REQUIRED_POINTS" = "Απαιτούμενοι πόντοι";
 /* Requires */
 "REQUIRES" = "Χρειάζονται";
+/* Radiation Protection System */
+"RadiationProtectionSystem" = "Σύστημα Ακτινοπροστασίας";
 /* Railroad */
 "Railroad" = "Σιδηρόδρομος";
 /* Rain Forest Project */
@@ -775,6 +1059,8 @@
 "RapidDeployment" = "Γρήγορη Ανάπτυξη";
 /* Rapid Response */
 "RapidResponse" = "Άμεση Επέμβαση";
+/* Rare Earth Elements */
+"RareEarthElements" = "Σπάνιες Γαίες";
 /* RawAlabaster */
 "RawAlabaster" = "Ακατέργαστος Αλάβαστρος";
 /* Reactive Armor */
@@ -785,14 +1071,28 @@
 "Recreation" = "Αναψυχή";
 /* Recycled Materials */
 "RecycledMaterials" = "Ανακυκλώσιμα Υλικά";
+/* Regenerative Methods */
+"RegenerativeMethods" = "Μέθοδοι Αναγέννησης";
+/* Reinforced Mining Parts */
+"ReinforcedMiningParts" = "Ενισχυμένα Μέρη Εξόρυξης";
+/* Reliable Hash Generators */
+"ReliableHashGenerators" = "Αξιόπιστες Γεννήτριες Κατακερματισμού";
 /* Renewable Energy */
 "RenewableEnergy" = "Ανανεώσιμη Ενέργεια";
 /* Renewable Resources */
 "RenewableResources" = "Ανανεώσιμες Πηγές";
 /* Renewable Resources */
 "RenewableResources" = "Ανανεώσιμες Πηγές";
+/* Repurposable Furniture */
+"RepurposableFurniture" = "Πολυχρηστικά Έπιπλα";
+/* Research Grant */
+"ResearchGrant" = "Επιχορήγηση Έρευνας";
+/* Responsive Holo-Entertainment */
+"ResponsiveHoloEntertainment" = "Ολογραφική Ψυχαγωγία";
 /* Rifles */
 "Rifles" = "Τουφέκια";
+/* Robotic Appendages */
+"RoboticAppendages" = "Ρομποτικά Άκρα";
 /* Robots */
 "Robots" = "Ρομπότ";
 /* Rock */
@@ -803,6 +1103,8 @@
 "RoofTileHouses" = "Σπίτι με κεραμοσκεπή";
 /* Rope */
 "Rope" = "Σκοινί";
+/* Rotation Equalizer */
+"RotationEqualizer" = "Ισοσταθμιστής Περιστροφής";
 /* Royal Albert Hall */
 "RoyalAlbertHall" = "Royal Albert Hall";
 /* Rubber */
@@ -813,6 +1115,8 @@
 "SEND_MESSAGE" = "Αποστολή μηνύματος";
 /* Settings */
 "SETTINGS" = "Ρυθμίσεις";
+/* S.O.L.I.D. Mark II Glass */
+"SOLIDMarkIIGlass" = "Σ.Τ.Ε.Ρ.Ε.Ο. Γυαλί Έκδοςση Β";
 /* Start */
 "START_MESSAGE" = "Αρχική";
 /* Status */
@@ -823,8 +1127,18 @@
 "Salt" = "Αλάτι";
 /* Scoped Rifles */
 "ScopedRifles" = "Τουφέκια με Σκόπευτρα";
+/* Seasteading */
+"Seasteading" = "Οικήματα στη Θάλασσα";
+/* Secured VR Domains */
+"SecuredVRDomains" = "Ασφαλείς Τομείς VR";
 /* Seed Vault */
 "SeedVault" = "Τράπεζα Σπόρων";
+/* Selective Heat Generation */
+"SelectiveHeatGeneration" = "Παραγωγή Επιλεκτικής Θερμότητας";
+/* Self-Repairing Alloys */
+"SelfRepairingAlloys" = "Αυτοεπισκευαζόμενα Κράματα";
+/* Self-sealing Alloys */
+"SelfSealingAlloys" = "Αυτοστεγανοποιούμενα Κράματα";
 /* Self-Supporting Homes */
 "SelfSupportingHomes" = "Αυτοστηριζόμενα Σπίτια";
 /* Semicontuctors */
@@ -833,6 +1147,8 @@
 "Service247" = "Εξυπηρέτηση 24/7";
 /* Sewerage */
 "Sewerage" = "Αποχέτευση";
+/* Shellfish Aquaculture */
+"ShellfishAquaculture" = "Υδατοκαλλιέργεια Οστρακοειδών";
 /* Shophouses */
 "Shophouses" = "Καταστήματα με Σπίτια στον Όροφο";
 /* Siege Weapons */
@@ -840,15 +1156,25 @@
 /* Signposting */
 "Signposting" = "Σήμανση";
 /* Silk */
-"Silk" = "Μετάξι";
+"Silk" = "Μετάξια";
+/* Simplified Data Transmission */
+"SimplifiedDataTransmission" = "Μετάδοση Απλοποιημένων Δεδομένων";
+/* Simplified Repair Process */
+"SimplifiedRepairProcess" = "Απλοποιημένη Διαδικασία Επιδιόρθωσης";
 /* Slingshots */
 "Slingshots" = "Σφεντόνες";
+/* Smart Fabrics */
+"SmartFabrics" = "Έξυπνα Υφάσματα";
+/* Smart Home 2.0 */
+"SmartHome20" = "Έξυπνο Σπίτι 2.0";
 /* Smart Materials */
 "SmartMaterials" = "Έξυπνα υλικά";
 /* Smithery */
 "Smithery" = "Σιδηρουργείο";
 /* Soapstone */
 "Soapstone" = "Στεατίτης";
+/* Solar Powered EmDrive */
+"SolarPoweredEmDrive" = "Ηλιακός EmDrive";
 /* Solar Roads */
 "SolarRoads" = "Ηλιακοί Δρόμοι";
 /* Solid Materials */
@@ -865,8 +1191,14 @@
 "SpaceCarrier" = "Διαστημικός Μεταφορέας";
 /* Space Flight */
 "SpaceFlight" = "Διαστημική Πτήση";
+/* Space Kitchen */
+"SpaceKitchen" = "Διαστημική Κουζίνα";
+/* Space Marketing Techniques */
+"SpaceMarketingTechniques" = "Τεχνικές Διαστημικού Μάρκετινγκ";
 /* Space Needle */
 "SpaceNeedle" = "Πύργος Space Needle";
+/* Spacefaring */
+"Spacefaring" = "Διαστημικά Ταξίδια";
 /* Spears */
 "Spears" = "Ακόντια";
 /* Special Operations */
@@ -901,6 +1233,16 @@
 "Stonework" = "Λιθοδομία";
 /* Stress Management */
 "StressManagement" = "Διαχείριση Άγχους";
+/* String Rail System */
+"StringRailSystem" = "Σιδηροδρομικό Σύστημα Χορδών";
+/* Subaquatic Agriculture */
+"SubaquaticAgriculture" = "Υποβρύχια Καλλιέργεια";
+/* Subaquatic Filters */
+"SubaquaticFilters" = "Υποβρύχια Φίλτρα";
+/* Subaqueous Construction */
+"SubaqueousConstruction" = "Υποθαλάσσια Κατασκευή";
+/* Subatomic Crystallization */
+"SubatomicCrystallization" = "Υποατομική Κρυστάλλωση";
 /* Suburban Houses */
 "SuburbanHouses" = "Προαστιακά Σπίτια";
 /* Sugar Crystals */
@@ -909,12 +1251,20 @@
 "SulphurBlocks" = "Κύβοι Θείου";
 /* Superalloys */
 "Superalloys" = "Υπερκράματα";
+/* Superconductor Particle Streams */
+"SuperconductorParticleStreams" = "Ροές Υπεραγώγιμων Σωματιδίων";
 /* Superconductors */
 "Superconductors" = "Υπεραγωγός";
+/* Superheavy Warmachines */
+"SuperheavyWarmachines" = "Βαριές Πολεμικές Μηχανές";
 /* Supplies */
 "Supplies" = "Προμήθειες";
+/* Surface Observation Project */
+"SurfaceObservationProject" = "Πρόγραμμα Παρατήρησης Επιφάνειας";
 /* Surveillance */
 "Surveillance" = "Παρακολούθηση";
+/* Swarm Control Methods */
+"SwarmControlMethods" = "Μέθοδοι Ελέγχου των Σμηνών";
 /* Sweet Scent */
 "SweetScent" = "Γλυκιά Μυρωδιά";
 /* Thank you for your comments */
@@ -923,6 +1273,8 @@
 "TOTAL_BUILDING_POINTS" = "Συνολικοί πόντοι κτηρίου";
 /* Enter the total points that already put to the building */
 "TOTAL_BUILDING_POINTS_SUBHEADLINE" = "Εισάγετε τους πόντους που έχουν μπει μέχρι στιγμής στο κτήριο";
+/* Tailored Biolight */
+"TailoredBiolight" = "Προσαρμοσμένο Βιοφώς";
 /* Talk Powder */
 "TalkPowder" = "Πούδρα Ταλκ";
 /* Tanning */
@@ -963,6 +1315,8 @@
 "TheWheel" = "Ο Τροχός";
 /* Thermae */
 "Thermae" = "Θέρμες";
+/* Thermal Mining */
+"ThermalMining" = "Θερμική Εξόρυξη";
 /* Tidal Power */
 "TidalPower" = "Παλιρροϊκή Ενέργεια";
 /* Tin Ore */
@@ -993,20 +1347,34 @@
 "Tree" = "Δέντρο";
 /* Tribal Community */
 "TribalCommunity" = "Κοινότητα της φυλής";
+/* Trinary Information Engraving */
+"TrinaryInformationEngraving" = "Τριγωνική Εγχάραξη Πληροφοριών";
 /* Truce Tower */
 "TruceTower" = "Πύργος Καινοτομίας";
 /* Tungsten Ore */
 "TungstenOre" = "Μετάλλευμα του Βολφραμίου";
+/* Two Dimensional Magnetic Crystals */
+"TwoDimensionalMagneticCrystals" = "Δισδιάστατοι Μαγνητικοί Κρύσταλλοι";
 /* Unlocked */
 "UNLOCKED_MESSAGE" = "Ξεκλείδωτη";
 /* Underground Houses */
 "UndergroundHouses" = "Υπόγεια Σπίτια";
+/* Underwater Meditation */
+"UnderwaterMeditation" = "Υποθαλάσσιος Διαλογισμός";
 /* Unrefined Salt */
 "UnrefinedSalt" = "Ακατέργαστο Αλάτι";
 /* Urbanization */
 "Urbanization" = "Αστικοποίηση";
+/* VR Domain Archiving */
+"VRDomainArchiving" = "Αρχειοθέτηση Τομέα VR";
+/* VR Overlays */
+"VROverlays" = "Αναπαραστάσεις VR";
+/* VR Supported Celebrations */
+"VRSupportedCelebrations" = "Εορτασμοί Υποστηριζόμενοι από VR";
 /* Venus Carbon */
 "VenusCarbon" = "Άνθρακες Αφροδίτης";
+/* Vertical Home Design */
+"VerticalHomeDesign" = "Σχεδίαση Κάθετου Σπιτιού";
 /* Victorian Houses */
 "VictorianHouses" = "Βικτωριανά Σπίτια";
 /* Virtual Future */
@@ -1015,12 +1383,18 @@
 "VoyagerV1" = "Voyager V1";
 /* Waste Management */
 "WasteManagement" = "Διαχείριση Αποβλήτων";
+/* Waste Management Enzymes */
+"WasteManagementEnzymes" = "Ένζημα Διαχείρισης Αποβλήτων";
 /* Water Reservoirs */
 "WaterReservoirs" = "Δεξαμενές Νερού";
 /* Water Wheels */
 "WaterWheels" = "Υδραυλικοί Τροχοί";
+/* Waterfall Stock */
+"WaterfallStock" = "Υδάτινο Χρηματιστήριο";
 /* Waterfront Residentials */
 "WaterfrontResidentials" = "Παραθαλάσσιες Κατοικίες";
+/* Wave Farms */
+"WaveFarms" = "Φάρμες Κυματικής Ενέργειας";
 /* Whale Oil */
 "WhaleOil" = "Λίπος Φάλαινας";
 /* Whales */
@@ -1101,3 +1475,6 @@
 "total" = "Σύνολο";
 /* Units */
 "units" = "Μονάδες";
+/* What to come */
+"whatToCome" = "Επόμενη αναβάθμιση:
+* Μεγάλα Κτήρια";
