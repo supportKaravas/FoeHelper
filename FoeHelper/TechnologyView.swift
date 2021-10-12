@@ -113,7 +113,8 @@ struct TechnologyView: View {
 
 struct TechnologyView_Previews: PreviewProvider {
     static var previews: some View {
-        TechnologyView( technology: TestData.technology)
+        TechnologyView()
+//        TechnologyView( technology: TestData.technology)
     }
 }
 

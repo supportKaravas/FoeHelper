@@ -58,6 +58,16 @@ struct AgeView: View {
                             })
                     }
                 }
+                Section(header: Text("requires")){
+                    List(age!.requiredGoods ?? []){ good in
+                        HStack{
+                            Text(NSLocalizedString(good.code, comment: ""))
+                            Spacer()
+                            Text("\(good.amount!)")
+                        }
+                    }
+                }
+
             }
             if showActivityView { MyActivityIndicatorView() }
         }
@@ -118,6 +128,7 @@ struct AgeView: View {
 
 struct AgeView_Previews: PreviewProvider {
     static var previews: some View {
-        AgeView(age: TestData.age)
+//        AgeView(age: TestData.age)
+        AgeView()
     }
 }

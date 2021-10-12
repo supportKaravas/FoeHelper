@@ -9,8 +9,9 @@ import Foundation
 
 //let urlString = "http://127.0.0.1:8080/gkaravas/foeHelper/external/postman"
 //let urlString = "http://192.168.1.22:8080/gkaravas/foeHelper/external/postman"
-let urlString = "https://www.gkaravas.com/foeHelper/external/postman"
-
+//let urlString = "https://www.gkaravas.com/foeHelper/external/postman"
+//let urlString = "http://foe.gkaravas.com/external/postman"
+let urlString = "https://www.gkaravas.com:8443/foeHelper/external/postman"
 
 public struct Technology: Codable, Identifiable{
     public var code: String
@@ -36,6 +37,7 @@ public struct Age: Codable, Identifiable{
     public var next: String?
     public var goods: [Good]?
     public var technologies: [Technology]?
+    public var requiredGoods: [Good]?
 }
 
 public struct Post: Encodable{
