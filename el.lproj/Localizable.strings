@@ -2,7 +2,7 @@
   Localizable.strings
   GShopIOS
 
-    Created by George Karavas on 2021-10-10.
+    Created by George Karavas on 2021-10-15.
   
 */
 /* A.G.F. Upgrade */
@@ -242,13 +242,15 @@
 /* Casting */
 "Casting" = "Χυτήριο";
 /* Cathedral of Aachen */
-"CathedralofAachen" = "Ο Καθεδρικός του Άαχεν";
+"CathedralOfAachen" = "Ο Καθεδρικός του Άαχεν";
 /* Cavalry Tactics */
 "CavalryTactics" = "Τακτικές Ιππικού";
 /* Chain of Command */
 "ChainOfCommand" = "Δομή Διοίκησης";
 /* Chalets */
 "Chalets" = "Σαλέ";
+/* Château Frontenac */
+"ChateauFrontenac" = "Κάστρο Frontenac";
 /* Chemistry */
 "Chemistry" = "Χημεία";
 /* Children's Rights */
@@ -259,8 +261,6 @@
 "ChromatophoreSynthesis" = "Χρωματοφόρα Σύνθεση";
 /* Chrysaniline */
 "Chrysaniline" = "Χρυσαλίνη";
-/* Château Frontenac */
-"ChâteauFrontenac" = "Κάστρο Frontenac";
 /* Citizen Score System */
 "CitizenScoreSystem" = "Σύστημα Βαθμολογίας Πολιτών";
 /* Clapboard Houses */
@@ -512,7 +512,7 @@
 /* Frame Houses */
 "FrameHouses" = "Σπίτι με Ξύλινο Σκελετό";
 /* Frauenkirche of Dresden */
-"FrauenkircheofDresden" = "Frauenkirche της Δρέσδης";
+"FrauenkircheOfDresden" = "Frauenkirche της Δρέσδης";
 /* Frost Immunity */
 "FrostImmunity" = "Ανοσία στον Πάγο";
 /* Fusion Power */
@@ -704,7 +704,7 @@
 /* Lifeguarding */
 "Lifeguarding" = "Ναυαγοσωστική";
 /* Lighthouse of Alexandria */
-"LighthouseofAlexandria" = "Ο Φάρος της Αλεξάνδρειας";
+"LighthouseOfAlexandria" = "Ο Φάρος της Αλεξάνδρειας";
 /* Limestone */
 "Limestone" = "Ασβεστόλιθος";
 /* LimestoneRock */
@@ -871,6 +871,8 @@
 "Nightlife" = "Νυχτερινή Ζωή";
 /* NikelOre */
 "NikelOre" = "Νικέλιο";
+/* No Age */
+"NoAge" = "Χωρίς Εποχή";
 /* Noise-Cancelling Concrete */
 "NoiseCancellingConcrete" = "Σκυρόδεμα Εξουδετέρωσης Θορύβου";
 /* Non-Reflective Photovoltaic */
@@ -908,7 +910,7 @@
 /* Optics */
 "Optics" = "Οπτική";
 /* Oracle of Delphi */
-"OracleofDelphi" = "Μαντείο των Δελφών";
+"OracleOfDelphi" = "Μαντείο των Δελφών";
 /* Orbital Networks */
 "OrbitalNetworks" = "Τροχιακά Δίκτυα";
 /* Organic Conduction */
@@ -1212,11 +1214,11 @@
 /* Squad Tactics */
 "SquadTactics" = "Τακτικές Διμοιρίας";
 /* St. Mark's Basilica */
-"St.MarksBasilica" = "Η Βασιλική του Αγίου Μάρκου";
+"StMarksBasilica" = "Η Βασιλική του Αγίου Μάρκου";
 /* Star Gazer */
 "StarGazer" = "Αστροπαρατηρητής";
 /* Statue of Zeus */
-"StatueofZeus" = "Άγαλμα του Διά";
+"StatueOfZeus" = "Άγαλμα του Διά";
 /* Stealth Technology */
 "StealthTechnology" = "Μυστική Τεχνολογία";
 /* Steel */
@@ -1286,7 +1288,7 @@
 /* Teaching */
 "Teaching" = "Διδασκαλία";
 /* Temple of Relics */
-"TempleofRelics" = "Ναός των Κειμηλείων";
+"TempleOfRelics" = "Ναός των Κειμηλείων";
 /* Tenement Houses */
 "TenementHouses" = "Πολυκατοικίες";
 /* Terracotta Army */
@@ -1307,8 +1309,8 @@
 "TheHabitat" = "Το Habitat";
 /* The Kraken */
 "TheKraken" = "Το Κράκεν";
-/* The Virgo Project​ */
-"TheVirgoProject​" = "Πρότζεκτ Αστερισμός της Παρθένου";
+/* The Virgo Project */
+"TheVirgoProject" = "Πρότζεκτ Αστερισμός της Παρθένου";
 /* The West */
 "TheWest" = "The West";
 /* The Wheel */
@@ -1328,7 +1330,7 @@
 /* Tools */
 "Tools" = "Εργαλεία";
 /* Tower of Babel */
-"TowerofBabel" = "Πύργος της Βαβέλ";
+"TowerOfBabel" = "Πύργος της Βαβέλ";
 /* Town Houses */
 "TownHouses" = "Αριστοκρατικό Σπίτι";
 /* Tracked Vehicles */
@@ -1425,6 +1427,8 @@
 "appName" = "FOE Helper";
 /* Arcs contribute with percentage */
 "arcContribution" = "Ποσοστό συνεισφοράς θόλων";
+/* Age */
+"arcHelp" = "Βοήθεια θόλου";
 /* Building */
 "building" = "Κτήριο";
 /* Buildings */
@@ -1443,14 +1447,24 @@
 "gameData" = "Δεδομένα παιχνιδιού";
 /* Goods */
 "goods" = "Αγαθά";
+/* Great Buildings */
+"greatBuildings" = "Μεγάλα κτήρια";
+/* Height */
+"height" = "Ύψος";
 /* Index */
 "index" = "Αρχική";
 /* Locks */
 "locks" = "Κλειδώνει";
+/* Level %lld */
+"lvl %lld" = "Επίπεδο %lld";
 /* Next age */
 "nextAge" = "Επόμενη εποχή";
+/* Age */
+"owner" = "Ιδιοκτήτης";
 /* Points */
 "points" = "Πόντοι";
+/* Position %lld */
+"position %lld" = "Θέση %lld";
 /* Previous age */
 "previousAge" = "Προηγούμενη εποχή";
 /* Required Goods */
@@ -1478,3 +1492,5 @@
 /* What to come */
 "whatToCome" = "Επόμενη αναβάθμιση:
 * Μεγάλα Κτήρια";
+/* Width */
+"width" = "Πλάτος";

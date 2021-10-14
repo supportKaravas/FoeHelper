@@ -1,0 +1,19 @@
+{
+    "greatBuilding":{
+        "code":"Observatory",
+        "requiredGoods":[
+            {"technologies":[],"amount":10,"code":"Stone","id":125},
+            {"technologies":[],"amount":10,"code":"Lumber","id":126},
+            {"technologies":[],"amount":10,"code":"Marble","id":127},
+            {"technologies":[],"amount":10,"code":"Dye","id":128},
+            {"technologies":[],"amount":10,"code":"Wine","id":129}
+        ],"width":3,"id":124,"age":"NoAge","height":3,
+        "levels": [
+            {"aa":1,"id":191},
+            {"aa":2,"id":192},
+            {"aa":3,"id":193},
+            {"aa":4,"id":194},
+            {"aa":5,"id":195}
+        ]
+    }
+}

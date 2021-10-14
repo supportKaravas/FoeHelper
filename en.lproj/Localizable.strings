@@ -2,7 +2,7 @@
   Localizable.strings
   GShopIOS
 
-    Created by George Karavas on 2021-10-10.
+    Created by George Karavas on 2021-10-15.
   
 */
 /* A.G.F. Upgrade */
@@ -242,13 +242,15 @@
 /* Casting */
 "Casting" = "Casting";
 /* Cathedral of Aachen */
-"CathedralofAachen" = "Cathedral of Aachen";
+"CathedralOfAachen" = "Cathedral of Aachen";
 /* Cavalry Tactics */
 "CavalryTactics" = "Cavalry Tactics";
 /* Chain of Command */
 "ChainOfCommand" = "Chain of Command";
 /* Chalets */
 "Chalets" = "Chalets";
+/* Château Frontenac */
+"ChateauFrontenac" = "Château Frontenac";
 /* Chemistry */
 "Chemistry" = "Chemistry";
 /* Children's Rights */
@@ -259,8 +261,6 @@
 "ChromatophoreSynthesis" = "Chromatophore Synthesis";
 /* Chrysaniline */
 "Chrysaniline" = "Chrysaniline";
-/* Château Frontenac */
-"ChâteauFrontenac" = "Château Frontenac";
 /* Citizen Score System */
 "CitizenScoreSystem" = "Citizen Score System";
 /* Clapboard Houses */
@@ -512,7 +512,7 @@
 /* Frame Houses */
 "FrameHouses" = "Frame Houses";
 /* Frauenkirche of Dresden */
-"FrauenkircheofDresden" = "Frauenkirche of Dresden";
+"FrauenkircheOfDresden" = "Frauenkirche of Dresden";
 /* Frost Immunity */
 "FrostImmunity" = "Frost Immunity";
 /* Fusion Power */
@@ -704,7 +704,7 @@
 /* Lifeguarding */
 "Lifeguarding" = "Lifeguarding";
 /* Lighthouse of Alexandria */
-"LighthouseofAlexandria" = "Lighthouse of Alexandria";
+"LighthouseOfAlexandria" = "Lighthouse of Alexandria";
 /* Limestone */
 "Limestone" = "Limestone";
 /* LimestoneRock */
@@ -871,6 +871,8 @@
 "Nightlife" = "Nightlife";
 /* NikelOre */
 "NikelOre" = "NikelOre";
+/* No Age */
+"NoAge" = "No Age";
 /* Noise-Cancelling Concrete */
 "NoiseCancellingConcrete" = "Noise-Cancelling Concrete";
 /* Non-Reflective Photovoltaic */
@@ -908,7 +910,7 @@
 /* Optics */
 "Optics" = "Optics";
 /* Oracle of Delphi */
-"OracleofDelphi" = "Oracle of Delphi";
+"OracleOfDelphi" = "Oracle of Delphi";
 /* Orbital Networks */
 "OrbitalNetworks" = "Orbital Networks";
 /* Organic Conduction */
@@ -1212,11 +1214,11 @@
 /* Squad Tactics */
 "SquadTactics" = "Squad Tactics";
 /* St. Mark's Basilica */
-"St.MarksBasilica" = "St. Mark's Basilica";
+"StMarksBasilica" = "St. Mark's Basilica";
 /* Star Gazer */
 "StarGazer" = "Star Gazer";
 /* Statue of Zeus */
-"StatueofZeus" = "Statue of Zeus";
+"StatueOfZeus" = "Statue of Zeus";
 /* Stealth Technology */
 "StealthTechnology" = "Stealth Technology";
 /* Steel */
@@ -1286,7 +1288,7 @@
 /* Teaching */
 "Teaching" = "Teaching";
 /* Temple of Relics */
-"TempleofRelics" = "Temple of Relics";
+"TempleOfRelics" = "Temple of Relics";
 /* Tenement Houses */
 "TenementHouses" = "Tenement Houses";
 /* Terracotta Army */
@@ -1307,8 +1309,8 @@
 "TheHabitat" = "The Habitat";
 /* The Kraken */
 "TheKraken" = "The Kraken";
-/* The Virgo Project​ */
-"TheVirgoProject​" = "The Virgo Project​";
+/* The Virgo Project */
+"TheVirgoProject" = "The Virgo Project";
 /* The West */
 "TheWest" = "The West";
 /* The Wheel */
@@ -1328,7 +1330,7 @@
 /* Tools */
 "Tools" = "Tools";
 /* Tower of Babel */
-"TowerofBabel" = "Tower of Babel";
+"TowerOfBabel" = "Tower of Babel";
 /* Town Houses */
 "TownHouses" = "Town Houses";
 /* Tracked Vehicles */
@@ -1425,6 +1427,8 @@
 "appName" = "FOE Helper";
 /* Arcs contribute with percentage */
 "arcContribution" = "Arcs contribute with percentage";
+/* Age */
+"arcHelp" = "Arc help";
 /* Building */
 "building" = "Building";
 /* Buildings */
@@ -1443,14 +1447,24 @@
 "gameData" = "Game data";
 /* Goods */
 "goods" = "Goods";
+/* Great Buildings */
+"greatBuildings" = "Great Buildings";
+/* Height */
+"height" = "Height";
 /* Index */
 "index" = "Index";
 /* Locks */
 "locks" = "Locks";
+/* Level %lld */
+"lvl %lld" = "Level %lld";
 /* Next age */
 "nextAge" = "Next age";
+/* Age */
+"owner" = "Owner";
 /* Points */
 "points" = "Points";
+/* Position %lld */
+"position %lld" = "Position %lld";
 /* Previous age */
 "previousAge" = "Previous age";
 /* Required Goods */
@@ -1478,3 +1492,5 @@
 /* What to come */
 "whatToCome" = "Next upgrade:
 * Great Buildings";
+/* Width */
+"width" = "Width";

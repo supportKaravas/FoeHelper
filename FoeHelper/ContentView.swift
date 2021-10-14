@@ -42,6 +42,15 @@ struct ContentView: View {
                         label: {
                             Text(NSLocalizedString("ages", comment: ""))
                         })
+
+                    NavigationLink(
+                        destination: GreatBuildingsView()
+                            .environmentObject(sharedData)
+                        ,
+                        label: {
+                            Text(NSLocalizedString("greatBuildings", comment: ""))
+                        })
+
                     NavigationLink(
                         destination: AttackBuildingView()
                             .environmentObject(sharedData)

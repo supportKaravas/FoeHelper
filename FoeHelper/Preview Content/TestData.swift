@@ -32,4 +32,29 @@ struct TestData{
         return value
     }()
 
+    static var greatBuildings: [DetailRow] = {
+        let url = Bundle.main.url(forResource: "GreatBuildings", withExtension: "json")!
+        let data = try! Data(contentsOf: url)
+        let decoder = JSONDecoder()
+//        var value: [DetailRow] = try! decoder.decode([DetailRow.self], from: data)
+        var returnData: ReturnData = try! decoder.decode(ReturnData.self, from: data)
+        return returnData.details ?? []
+    }()
+
+    static var greatBuilding: GreatBuilding = {
+        let url = Bundle.main.url(forResource: "GreatBuilding", withExtension: "json")!
+        let data = try! Data(contentsOf: url)
+        let decoder = JSONDecoder()
+        var value: ReturnData = try! decoder.decode(ReturnData.self, from: data)
+        return value.greatBuilding!
+    }()
+
+    static var greatBuildingLevel: GreatBuildingLevel = {
+        let url = Bundle.main.url(forResource: "GreatBuildingLevel", withExtension: "json")!
+        let data = try! Data(contentsOf: url)
+        let decoder = JSONDecoder()
+        var value: ReturnData = try! decoder.decode(ReturnData.self, from: data)
+        return value.level!
+    }()
+
 }

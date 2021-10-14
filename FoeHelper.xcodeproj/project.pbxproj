@@ -20,6 +20,12 @@
 		B848C124269C6D830038C5C0 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848C123269C6D830038C5C0 /* ContactUsView.swift */; };
 		B85619C0269E0EDF0091F05D /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85619BF269E0EDF0091F05D /* RestClient.swift */; };
 		B888CB36269EECC300D60AEF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B888CB38269EECC300D60AEF /* Localizable.strings */; };
+		B8B6185E27186D7400F6227A /* GreatBuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B6185D27186D7400F6227A /* GreatBuildingsView.swift */; };
+		B8B6186027186F0400F6227A /* GreatBuildings.json in Resources */ = {isa = PBXBuildFile; fileRef = B8B6185F27186F0400F6227A /* GreatBuildings.json */; };
+		B8B61862271874ED00F6227A /* GreatBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B61861271874ED00F6227A /* GreatBuildingView.swift */; };
+		B8B6186427188BC300F6227A /* GreatBuilding.json in Resources */ = {isa = PBXBuildFile; fileRef = B8B6186327188BC300F6227A /* GreatBuilding.json */; };
+		B8B618662718B50A00F6227A /* GreatBuildingLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B618652718B50A00F6227A /* GreatBuildingLevelView.swift */; };
+		B8B618682718BDA500F6227A /* GreatBuildingLevel.json in Resources */ = {isa = PBXBuildFile; fileRef = B8B618672718BDA500F6227A /* GreatBuildingLevel.json */; };
 		B8C71BF5269F4272007B62FB /* ContributeBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71BF4269F4272007B62FB /* ContributeBuildingView.swift */; };
 		B8C71BF7269F5AAE007B62FB /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71BF6269F5AAE007B62FB /* ActivityView.swift */; };
 		B8DA5D9D2705EF5400C2D387 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA5D9C2705EF5400C2D387 /* DataStructures.swift */; };
@@ -47,6 +53,12 @@
 		B85619BF269E0EDF0091F05D /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
 		B888CB37269EECC300D60AEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B888CB39269EECC700D60AEF /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B8B6185D27186D7400F6227A /* GreatBuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatBuildingsView.swift; sourceTree = "<group>"; };
+		B8B6185F27186F0400F6227A /* GreatBuildings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GreatBuildings.json; sourceTree = "<group>"; };
+		B8B61861271874ED00F6227A /* GreatBuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatBuildingView.swift; sourceTree = "<group>"; };
+		B8B6186327188BC300F6227A /* GreatBuilding.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GreatBuilding.json; sourceTree = "<group>"; };
+		B8B618652718B50A00F6227A /* GreatBuildingLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatBuildingLevelView.swift; sourceTree = "<group>"; };
+		B8B618672718BDA500F6227A /* GreatBuildingLevel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GreatBuildingLevel.json; sourceTree = "<group>"; };
 		B8C71BF4269F4272007B62FB /* ContributeBuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributeBuildingView.swift; sourceTree = "<group>"; };
 		B8C71BF6269F5AAE007B62FB /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		B8DA5D9C2705EF5400C2D387 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
@@ -107,6 +119,9 @@
 				B8DA5DAB270700DF00C2D387 /* GoodView.swift */,
 				B83B08A0270E1AEE00F8ABC4 /* TechnologyView.swift */,
 				B83B08A4270E356000F8ABC4 /* AboutView.swift */,
+				B8B6185D27186D7400F6227A /* GreatBuildingsView.swift */,
+				B8B61861271874ED00F6227A /* GreatBuildingView.swift */,
+				B8B618652718B50A00F6227A /* GreatBuildingLevelView.swift */,
 			);
 			path = FoeHelper;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 				B8DA5DA927063DA100C2D387 /* Age.json */,
 				B8DA5DAD27070E3700C2D387 /* Good.json */,
 				B83B08A2270E21A700F8ABC4 /* Technology.json */,
+				B8B6185F27186F0400F6227A /* GreatBuildings.json */,
+				B8B6186327188BC300F6227A /* GreatBuilding.json */,
+				B8B618672718BDA500F6227A /* GreatBuildingLevel.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -189,6 +207,9 @@
 			files = (
 				B8DA5DAE27070E3700C2D387 /* Good.json in Resources */,
 				B848C118269C4ED40038C5C0 /* Preview Assets.xcassets in Resources */,
+				B8B6186027186F0400F6227A /* GreatBuildings.json in Resources */,
+				B8B618682718BDA500F6227A /* GreatBuildingLevel.json in Resources */,
+				B8B6186427188BC300F6227A /* GreatBuilding.json in Resources */,
 				B8DA5DAA27063DA100C2D387 /* Age.json in Resources */,
 				B888CB36269EECC300D60AEF /* Localizable.strings in Resources */,
 				B848C115269C4ED40038C5C0 /* Assets.xcassets in Resources */,
@@ -205,7 +226,10 @@
 			files = (
 				B83B08A1270E1AEE00F8ABC4 /* TechnologyView.swift in Sources */,
 				B848C120269C50C40038C5C0 /* AttackBuildingView.swift in Sources */,
+				B8B6185E27186D7400F6227A /* GreatBuildingsView.swift in Sources */,
 				B8DA5D9D2705EF5400C2D387 /* DataStructures.swift in Sources */,
+				B8B61862271874ED00F6227A /* GreatBuildingView.swift in Sources */,
+				B8B618662718B50A00F6227A /* GreatBuildingLevelView.swift in Sources */,
 				B848C124269C6D830038C5C0 /* ContactUsView.swift in Sources */,
 				B83B08A5270E356000F8ABC4 /* AboutView.swift in Sources */,
 				B8DA5DAC270700DF00C2D387 /* GoodView.swift in Sources */,
