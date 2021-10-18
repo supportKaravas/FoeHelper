@@ -9,9 +9,11 @@ import Foundation
 
 let servletVersion: Int = 104
 
-let urlString = "http://127.0.0.1:8080/gkaravas/foeHelperTest/external/postman"
+//let urlString = "http://127.0.0.1:8080/gkaravas/foeHelperTest/external/postman"
 //let urlString = "http://192.168.1.22:8080/gkaravas/foeHelperTest/external/postman"
-//let urlString = "https://www.gkaravas.com/foeHelper/external/postman"
+//let urlString = "https://www.gkaravas.com/foeHelperTest/external/postman"
+let urlString = "https://www.gkaravas.com/foeHelper/external/postman"
+
 //let urlString = "http://foe.gkaravas.com/external/postman"
 //let urlString = "https://www.gkaravas.com:8443/foeHelper/external/postman"
 
