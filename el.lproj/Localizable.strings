@@ -2,7 +2,7 @@
   Localizable.strings
   GShopIOS
 
-    Created by George Karavas on 2021-10-15.
+    Created by George Karavas on 2021-10-18.
   
 */
 /* A.G.F. Upgrade */
@@ -578,7 +578,7 @@
 /* Gunpowder */
 "Gunpowder" = "Μπαρούτι";
 /* Hagia Sophia */
-"HagiaSophia" = "Αγία Σοφιά";
+"HagiaSophia" = "Αγιά Σοφιά";
 /* Handicraft */
 "Handicraft" = "Χειροτεχνία";
 /* Hardened Scales */
@@ -1218,7 +1218,7 @@
 /* Star Gazer */
 "StarGazer" = "Αστροπαρατηρητής";
 /* Statue of Zeus */
-"StatueOfZeus" = "Άγαλμα του Διά";
+"StatueOfZeus" = "Άγαλμα του Δία";
 /* Stealth Technology */
 "StealthTechnology" = "Μυστική Τεχνολογία";
 /* Steel */
@@ -1489,8 +1489,15 @@
 "total" = "Σύνολο";
 /* Units */
 "units" = "Μονάδες";
-/* What to come */
+/* Next upgrade:
+* Users
+* User Profiles
+* User notes
+* User reminders */
 "whatToCome" = "Επόμενη αναβάθμιση:
-* Μεγάλα Κτήρια";
+* Χρήστες
+* Προφίλ χρηστών
+* Σημειώσεις χρήστη
+* Υπενθυμίσεις χρήστη";
 /* Width */
 "width" = "Πλάτος";

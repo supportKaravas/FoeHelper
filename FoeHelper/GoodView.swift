@@ -57,7 +57,7 @@ struct GoodView: View {
         }
         
         var meta = SimpleServletMetadata()
-        meta.version = 1
+        meta.version = servletVersion
         var post = SimpleServletPostData()
         post.metadata = meta
         post.messageType = "LoadGood"

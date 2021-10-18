@@ -35,7 +35,7 @@ struct GreatBuildingView: View {
                     }
 
                     HStack{
-                        Text("heigth")
+                        Text("height")
                         Spacer()
                         Text("\(building?.height ?? 0)")
                     }
@@ -78,7 +78,7 @@ struct GreatBuildingView: View {
         }
         
         var meta = SimpleServletMetadata()
-        meta.version = 1
+        meta.version = servletVersion
         var post = SimpleServletPostData()
         post.metadata = meta
         post.messageType = "LoadGreatBuilding"

@@ -2,7 +2,7 @@
   Localizable.strings
   GShopIOS
 
-    Created by George Karavas on 2021-10-15.
+    Created by George Karavas on 2021-10-18.
   
 */
 /* A.G.F. Upgrade */
@@ -1489,8 +1489,15 @@
 "total" = "Total";
 /* Units */
 "units" = "Units";
-/* What to come */
+/* Next upgrade:
+* Users
+* User Profiles
+* User notes
+* User reminders */
 "whatToCome" = "Next upgrade:
-* Great Buildings";
+* Users
+* User Profiles
+* User notes
+* User reminders";
 /* Width */
 "width" = "Width";
